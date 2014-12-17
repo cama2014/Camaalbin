@@ -22,7 +22,7 @@
         <!--header-->
 
         <div class="header">
-            <div class="container">
+            <div class="container header-container">
 
                 <!--nav-->
 

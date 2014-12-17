@@ -1,8 +1,54 @@
 
-.utfyllnad{
+.container.section-container {
     
+margin-right: auto;
+margin-left: auto;
+margin-top: 40px;
+
+}
+
+.col-lg-12.slidshow{
+    
+    padding: 10px;
     background-color: pink;
-    outline: solid thin orange;
-    height: 500px;
+    margin-bottom: 40px;
+    
+}
+
+/*REA/Nyheter*/
+
+.col-lg-12.RN{
+    
+margin: 10px 0 0;
+border-top: 1px solid lightgray;
+padding-top: 30px;
+position: relative;
+
+}
+
+.headline {
+    
+text-align: center;
+position: absolute;
+top: -11px;
+width: 100%;
+height: 50px;
+color: #BD0000;
+
+}
+
+.headline span {
+    
+font-size: 20px;
+line-height: 20px;
+padding: 10px;
+background: #fff;
+
+}
+
+.headline h3{
+    
+    margin: 0px;
+    font-size: 20px;
     
 }
