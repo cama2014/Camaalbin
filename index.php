@@ -10,7 +10,10 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
-        
+        <link href="nav.css" rel="stylesheet">
+        <link href="footer.css" rel="stylesheet">
+
+
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -65,25 +68,25 @@
                         </a>
                     </div>       
                 </div>
-                
+
                 <div class="col-lg-12 RN">
                     <div class="headline"><h3><span class="headline-center">REA</span></div></h3>
                 </div>
-                
-                <div class="col-lg-3 fyrabox"><img src="img/Das_Bild_der_Prinzessin.jpg" class="img-responsive" alt="Responsive image"></div>
-                <div class="col-lg-3 fyrabox"><img src="img/Das_Bild_der_Prinzessin.jpg" class="img-responsive" alt="Responsive image"></div>
-                <div class="col-lg-3 fyrabox"><img src="img/Das_Bild_der_Prinzessin.jpg" class="img-responsive" alt="Responsive image"></div>
-                <div class="col-lg-3 fyrabox"><img src="img/Das_Bild_der_Prinzessin.jpg" class="img-responsive" alt="Responsive image"></div>
+
+                <div class="col-lg-3 col-md-6 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                <div class="col-lg-3 col-md-6 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                <div class="col-lg-3 col-md-6 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                <div class="col-lg-3 col-md-6 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
 
                 <div class="col-lg-12 RN">
                     <div class="headline"><h3><span class="headline-center">NYHETER</span></div></h3>
                 </div>
-                
-                <div class="col-lg-3 fyrabox"><img src="img/Das_Bild_der_Prinzessin.jpg" class="img-responsive" alt="Responsive image"></div>
-                <div class="col-lg-3 fyrabox"><img src="img/Das_Bild_der_Prinzessin.jpg" class="img-responsive" alt="Responsive image"></div>
-                <div class="col-lg-3 fyrabox"><img src="img/Das_Bild_der_Prinzessin.jpg" class="img-responsive" alt="Responsive image"></div>
-                <div class="col-lg-3 fyrabox"><img src="img/Das_Bild_der_Prinzessin.jpg" class="img-responsive" alt="Responsive image"></div>
-                
+
+                <div class="col-lg-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                <div class="col-lg-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                <div class="col-lg-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                <div class="col-lg-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+
             </div>
         </div>  
 
