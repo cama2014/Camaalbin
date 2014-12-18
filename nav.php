@@ -16,7 +16,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="http://placehold.it/200x75&text=CAMA" class="img-responsive" alt="Responsive image"></a>
+                    <a class="navbar-brand" href="index.php"><img src="http://placehold.it/200x75&text=CAMA" class="img-responsive" alt="Responsive image"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -27,7 +27,7 @@
                                 <div class="row kt">
                                     <div class="col-xs-4 kt">
                                         <li><h3>Överdelar</h3></li>
-                                        <li><a href="#">T-shirt</a></li>
+                                        <li><a href="Tshirt.php">T-shirt</a></li>
                                         <li><a href="#">Tröjor</a></li>
                                         <li><a href="#">Skjortor</a></li>
                                         <li><a href="#">Jackor</a></li>
@@ -69,6 +69,7 @@
                                 </div>
                             </ul>
                         </li>
+                        <li><a href="#">REA</a></li>
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
                         <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>

@@ -5,6 +5,28 @@ body {
 
 }
 
+.container {
+
+    width: 90%;
+
+}
+@media (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
 /*slidshow*/
 
 .container.section-container {
@@ -18,7 +40,6 @@ body {
 .col-lg-12.slidshow{
 
     padding: 10px;
-    /*background-color: pink;*/
     margin-bottom: 30px;
 
 }
@@ -66,7 +87,6 @@ body {
 
 .col-lg-3.fyrabox{
 
-    /*background-color: pink;*/
     min-height: 1px;
     position: relative;
     margin-bottom: 30px;
