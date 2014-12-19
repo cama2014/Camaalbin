@@ -32,41 +32,152 @@
 
         <div class="container section-container">
             <div class="row">
-                <div class="col-lg-2"></div>
+                <div class="col-lg-2">
+                    <div class="filter">
+
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation" class="active"><h3>T-SHIRTS</h3></li>
+                            <li role="presentation"><a href="#">Profile</a></li>
+                            <li role="presentation"><a href="#">Messages</a></li>
+                        </ul>
+
+                    </div>
+                </div>
                 <div class="col-lg-10">
                     <div class="row fyrabox-row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="row fyrabox-row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="row fyrabox-row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="row fyrabox-row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                    </div>
-                    <div class="row BS-row">
-                        <div class="btn-group" role="group" aria-label="...">
-                            <button type="button" class="btn btn-default BS"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></button>
-                            <button type="button" class="btn btn-default BS">1</button>
-                            <button type="button" class="btn btn-default BS">2</button>
-                            <button type="button" class="btn btn-default BS">3</button>
-                            <button type="button" class="btn btn-default BS">4</button>
-                            <button type="button" class="btn btn-default BS">5</button>
-                            <button type="button" class="btn btn-default BS"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <div class="beskrivnig">
+                                <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                <h3>Skank</h3>                               
+                                <h3>T-shirt</h3>
+                                <span class="price">499 SEK</span>
+                            </div>
                         </div>
                     </div>
                 </div>

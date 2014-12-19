@@ -1,4 +1,54 @@
 
+/*filter del*/
+
+.col-lg-2{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+.filter{
+    
+    outline: solid thin red;
+    
+}
+
+/*produkter del*/
+
+.beskrivnig{
+    
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    outline: solid thin lightgray;
+    
+}
+
+.beskrivnig h3{
+    
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #777;
+    font-size: 15px;
+    
+}
+
+.price {
+    
+color: #BD0000;
+font-size: 20px;
+
+}
+
+.beskrivnig img{
+    
+    margin-bottom: 10px;
+    
+}
+
+/*Bytt sida sak*/
 
 .BS-row{
 

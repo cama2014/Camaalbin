@@ -33,7 +33,7 @@ body {
 
     margin-right: auto;
     margin-left: auto;
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 
@@ -85,15 +85,20 @@ body {
 
 /*fyraboxar*/
 
+.fyrabox-row{
+    
+    padding: 10px;
+    
+}
+
 .col-lg-3.fyrabox{
 
     min-height: 1px;
     position: relative;
-    margin-bottom: 30px;
-    margin-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 15px;
 
 }
