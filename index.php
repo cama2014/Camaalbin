@@ -8,7 +8,7 @@
         <title>Bootstrap 101 Template</title>
 
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
         <link href="nav.css" rel="stylesheet">
         <link href="footer.css" rel="stylesheet">
