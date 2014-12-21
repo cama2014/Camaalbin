@@ -34,13 +34,20 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="filter">
-
-                        <ul class="nav nav-pills nav-stacked">
-                            <li role="presentation" class="active"><h3>T-SHIRTS</h3></li>
-                            <li role="presentation"><a href="#">Profile</a></li>
-                            <li role="presentation"><a href="#">Messages</a></li>
+                        <ul class="filter-lista">                         
+                            <li><h3>T-SHIRTS</h3></li>
+                            <li><div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle filter-btn" data-toggle="dropdown" aria-expanded="false">
+                                MÄRKE <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu filter-dropdown" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div></li>                       
                         </ul>
-
                     </div>
                 </div>
                 <div class="col-lg-10">

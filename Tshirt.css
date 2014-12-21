@@ -2,50 +2,94 @@
 /*filter del*/
 
 .col-lg-2{
-    
+
     padding: 0;
     margin: 0;
-    
+
 }
 
 .filter{
-    
+
     outline: solid thin red;
-    
+
+}
+
+ul.filter-lista{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.btn-default.dropdown-toggle.filter-btn{
+
+    background-color: whitesmoke; 
+    color: #777;
+
+}
+
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #BD0000;
+}
+
+dropdown-menu.filter-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
 /*produkter del*/
 
 .beskrivnig{
-    
+
     background-color: whitesmoke;
     padding: 10px;
     text-align: center;
     outline: solid thin lightgray;
-    
+
 }
 
 .beskrivnig h3{
-    
+
     padding: 0px;
     margin-top: 5px;
     margin-bottom: 0px;
     color: #777;
     font-size: 15px;
-    
+
 }
 
 .price {
-    
-color: #BD0000;
-font-size: 20px;
+
+    color: #BD0000;
+    font-size: 20px;
 
 }
 
 .beskrivnig img{
-    
+
     margin-bottom: 10px;
-    
+
 }
 
 /*Bytt sida sak*/
