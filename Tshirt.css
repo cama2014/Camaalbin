@@ -1,61 +1,27 @@
 
 /*filter del*/
 
-.col-lg-2{
+.col-lg-2.filterdel{
 
     padding: 0;
     margin: 0;
-
-}
-
-.filter{
-
-    outline: solid thin red;
+    margin-top: 20px;
+    border-right: solid thin lightgray;
 
 }
 
 ul.filter-lista{
-
+   
     list-style: none;
-    margin: 0;
+    margin: 0 10px 0 10px;
     padding: 0;
 
 }
 
-.btn-default.dropdown-toggle.filter-btn{
-
-    background-color: whitesmoke; 
-    color: #777;
-
-}
-
-.btn-group.open .dropdown-toggle {
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.filter-lista h3{
+    
     color: #BD0000;
-}
-
-dropdown-menu.filter-dropdown {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    
 }
 
 /*produkter del*/
@@ -92,48 +58,65 @@ dropdown-menu.filter-dropdown {
 
 }
 
-/*Bytt sida sak*/
+/*test*/
 
-.BS-row{
+.containertest{
+    
+    width: available;
+    float:left;
+    
+}
 
-    margin-bottom: 30px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.headertest{
+    
+    border-bottom: solid thin lightgray;
+    background: no-repeat;
+    background-position:right 0px;
+    cursor:pointer;
+}
+
+.headertest h2{
+    
+    color: #777;
+    padding: 0;
+    margin: 5px 5px 10px 5px;
+    
+}
+
+.collapsed .headertest{
 
 }
 
-.btn-group, .btn-group-vertical {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    display: inline-block;
+.contenttest{
+    /*background-color: greenyellow;*/
+    height:auto;
+    min-height:100px;
+    overflow:hidden;
+    transition:all 0.3s linear;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -ms-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
 }
 
+.contenttest ul li{
+    
+    list-style: none;
+    
+}
 
-.btn-default.BS{
-
+.contenttest ul li a{
+    
     color: #222;
-    background-color: whitesmoke;
-    border: solid thin lightgray;
-    font-size: 20px;
-
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    border-bottom: solid thin lightgray;
+    
 }
 
-.btn-default.BS:hover{
-
-    color: #BD0000;
-    background-color: whitesmoke;
-    border: solid thin lightgray;
-    font-size: 20px;
-
-}
-
-.btn-default.BS:active{
-
-    color: #BD0000;
-    background-color: whitesmoke;
-    border: solid thin lightgray;
-    font-size: 20px;
-
+.collapsed .contenttest{
+    min-height:0px;
+    height:0px;
 }

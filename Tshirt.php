@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap 101 Template</title>
+        <title>CAMA - T-shirts</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,21 +32,23 @@
 
         <div class="container section-container">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 filterdel">
                     <div class="filter">
                         <ul class="filter-lista">                         
-                            <li><h3>T-SHIRTS</h3></li>
-                            <li><div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle filter-btn" data-toggle="dropdown" aria-expanded="false">
-                                MÄRKE <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu filter-dropdown" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </div></li>                       
+                            <li><h3>T-SHIRTS</h3></li>                          
+                            <li>
+                                <div class="containertest">
+                                    <div class="headertest"><h2>MÄRKE</h2></div>
+                                    <div class="contenttest">
+                                        <ul>
+                                            <li><a href="#"><input type="checkbox">Skank</a></li>
+                                            <li><a href="#"><input type="checkbox">DC</a></li>
+                                            <li><a href="#"><input type="checkbox">Appertiff</a></li>
+                                            <li><a href="#"><input type="checkbox">hurrdurr</a></li>
+                                        </ul>
+                                    </div>
+                                </div>                                
+                            </li>                               
                         </ul>
                     </div>
                 </div>
@@ -200,5 +202,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+
+        }
     </body>
 </html>
