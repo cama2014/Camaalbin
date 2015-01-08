@@ -6,33 +6,78 @@
     padding: 0;
     margin: 0;
     margin-top: 20px;
-    border-right: solid thin lightgray;
-    border-left: solid thin lightgray;
+    /*border-right: solid thin lightgray;*/
+    /*border-left: solid thin lightgray;*/
+    border-bottom: solid thin lightgrey;
 
 }
 
 ul.filter-lista{
-   
+
     list-style: none;
-    margin: 0 10px 0 10px;
+    margin: 0;
     padding: 0;
 
 }
 
+ul.filter-lista li{
+
+    border-top: solid thin lightgray;
+
+}
+
+ul.filter-lista li h3{
+
+    color: #BD0000;
+    padding: 0px;
+    margin: 24px 0px 24px 12px;
+
+}
+
 .btn-primary {
-    
-color: #BD0000;
-background-color: whitesmoke;
-border-color: whitesmoke;
+
+    color: #222;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
 
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    
-color: #BD0000;
- background-color: whitesmoke; 
- border-color: whitesmoke; 
- 
+
+    color: #BD0000;
+    background-color: whitesmoke; 
+    border-color: whitesmoke; 
+
+}
+
+/*filter del dropdown*/ 
+
+.well {
+
+    min-height: 20px;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.well ul{
+
+    padding: 0px;
+
+}
+
+.well ul li{
+
+    list-style: none;
+    border-top: solid thin lightgray;
+    padding: 12px;
+    color: #777;
+
 }
 
 /*produkter del*/
@@ -72,14 +117,14 @@ color: #BD0000;
 /*test*/
 
 .containertest{
-    
+
     width: available;
     float:left;
-    
+
 }
 
 .headertest{
-    
+
     border-bottom: solid thin lightgray;
     background: no-repeat;
     background-position:right 0px;
@@ -87,11 +132,11 @@ color: #BD0000;
 }
 
 .headertest h2{
-    
+
     color: #777;
     padding: 0;
     margin: 5px 5px 10px 5px;
-    
+
 }
 
 .collapsed .headertest{
@@ -111,20 +156,20 @@ color: #BD0000;
 }
 
 .contenttest ul li{
-    
+
     list-style: none;
-    
+
 }
 
 .contenttest ul li a{
-    
+
     color: #222;
     font-size: 15px;
     text-decoration: none;
     float: left;
     padding: 10px;
     border-bottom: solid thin lightgray;
-    
+
 }
 
 .collapsed .contenttest{

@@ -40,16 +40,18 @@
                 </div>
                 <div class="col-lg-2 filterdel">
                     <div class="filter">
-                        <ul class="filter-lista">                                                 
+                        <ul class="filter-lista">
+                            <li><h3>FILTER</h3></li>
                             <li>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                    Märke
+                                <a class="btn btn-primary" data-toggle="collapse" href="#marke" aria-expanded="false" aria-controls="marke">
+                                    MÄRKE
                                 </a>
-                                <div class="collapse" id="collapseExample">
+                                <div class="collapse" id="marke">
                                     <div class="well">
-                                       <ul>
-                                            <li>hej</li>
-                                            <li>då</li>
+                                        <ul>
+                                            <li>Appertiff</li>
+                                            <li>DC</li>
+                                            <li>Skank</li>
                                         </ul>
                                     </div>
                                 </div>                           
@@ -59,16 +61,42 @@
                     <div class="filter">
                         <ul class="filter-lista">                                                 
                             <li>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                    Märke
+                                <a class="btn btn-primary" data-toggle="collapse" href="#farg" aria-expanded="false" aria-controls="farg">
+                                    FÄRG
                                 </a>
-                                <div class="collapse" id="collapseExample">
+                                <div class="collapse" id="farg">
                                     <div class="well">
                                         <ul>
-                                            <li>hej</li>
+                                            <li>fel</li>
                                             <li>då</li>
                                         </ul>
-                                        
+
+                                    </div>
+                                </div>                           
+                            </li>                               
+                        </ul>
+                    </div>
+                    <div class="filter">
+                        <ul class="filter-lista">                                                 
+                            <li>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#pris" aria-expanded="false" aria-controls="pris">
+                                    PRIS
+                                </a>
+                                <div class="collapse" id="pris">
+                                    <div class="well">
+                                        <ul>
+                                            <li>100 SEK - 199 SEK</li>
+                                            <li>200 SEK - 299 SEK</li>
+                                            <li>300 SEK - 399 SEK</li>
+                                            <li>400 SEK - 499 SEK</li>
+                                            <li>500 SEK - 599 SEK</li>
+                                            <li>600 SEK - 699 SEK</li>
+                                            <li>700 SEK - 799 SEK</li>
+                                            <li>800 SEK - 899 SEK</li>
+                                            <li>900 SEK - 999 SEK</li>
+                                            <li>1000 SEK eller mer</li>
+                                        </ul>
+
                                     </div>
                                 </div>                           
                             </li>                               
@@ -213,7 +241,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>  
 
