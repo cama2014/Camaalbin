@@ -7,6 +7,7 @@
     margin: 0;
     margin-top: 20px;
     border-right: solid thin lightgray;
+    border-left: solid thin lightgray;
 
 }
 
@@ -18,10 +19,20 @@ ul.filter-lista{
 
 }
 
-.filter-lista h3{
+.btn-primary {
     
-    color: #BD0000;
+color: #BD0000;
+background-color: whitesmoke;
+border-color: whitesmoke;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     
+color: #BD0000;
+ background-color: whitesmoke; 
+ border-color: whitesmoke; 
+ 
 }
 
 /*produkter del*/
