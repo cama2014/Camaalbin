@@ -1,6 +1,13 @@
 
 /*filter del*/
 
+.col-lg-2{
+    
+/*    background-color: pink;
+    height: 20px;*/
+    
+}
+
 .col-lg-2.filterdel{
 
     padding: 0;
@@ -74,10 +81,22 @@ ul.filter-lista li h3{
 .well ul li{
 
     list-style: none;
-    border-top: solid thin lightgray;
-    padding: 12px;
-    color: #777;
+    border-top: solid thin lightgray  
 
+}
+
+.well ul li a{
+    
+    text-decoration: none;
+    color: #777;
+    
+}
+
+.well ul li a p{
+    
+    margin: 0;
+    padding: 12px;
+    
 }
 
 /*produkter del*/
@@ -175,4 +194,34 @@ ul.filter-lista li h3{
 .collapsed .contenttest{
     min-height:0px;
     height:0px;
+}
+
+/*byttsidasak*/
+
+.col-lg-12.byttsida ul{
+    
+    float: right;
+    
+}
+
+.col-lg-12.byttsida ul li{
+    
+    display: inline;
+    padding: 5px;
+    
+}
+
+.col-lg-12.byttsida ul li:active{
+    
+    display: inline;
+    color: #BD0000;
+    padding: 5px;
+    
+}
+
+.col-lg-12.byttsida ul li a{
+    
+    color: #777;
+    text-decoration: none;
+    
 }

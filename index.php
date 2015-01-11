@@ -78,10 +78,10 @@
                 </div>
 
                 <div class="row fyrabox-row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div>
                 </div>
 
                 <div class="row RN-row">
