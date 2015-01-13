@@ -55,15 +55,6 @@ body {
 
 }
 
-.col-lg-10.RN{
-
-    margin: 10px 0 0;
-    border-top: 1px solid lightgray;
-    padding-top: 30px;
-    position: relative;
-
-}
-
 .headline {
 
     text-align: center;
@@ -92,6 +83,12 @@ body {
 
 }
 
+.headline-container{
+    
+    margin: 0px 10px 1px 10px;
+    
+}
+
 /*fyraboxar*/
 
 .fyrabox-row{
@@ -110,4 +107,10 @@ body {
     padding-bottom: 10px;
     margin-bottom: 15px;
 
+}
+
+a:hover{
+    
+    text-decoration: none;
+    
 }

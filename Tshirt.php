@@ -32,225 +32,236 @@
 
         <div class="container section-container">
             <div class="row">
-                <div class="row RN-row">
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-10 RN">
-                        <div class="headline"><h3><span class="headline-center">T-SHIRTS</span></div></h3>
+                <div class="col-lg-2 filterdel">
+                    <div class="filter">
+                        <ul class="filter-lista">
+                            <li><h3>FILTER</h3></li>
+                            <li>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#marke" aria-expanded="false" aria-controls="marke">
+                                    MÄRKE
+                                </a>
+                                <div class="collapse" id="marke">
+                                    <div class="well">
+                                        <ul>
+                                            <li><a href="#"><p>Appertiff</p></a></li>
+                                            <li><a href="#"><p>Burton</p></a></li>
+                                            <li><a href="#"><p>Carhartt</p></a></li>
+                                            <li><a href="#"><p>DC</p></a></li>
+                                            <li><a href="#"><p>Etnies</p></a></li>
+                                            <li><a href="#"><p>Humör</p></a></li>
+                                            <li><a href="#"><p>Neff</p></a></li>
+                                            <li><a href="#"><p>Skank</p></a></li>
+                                        </ul>
+                                    </div>
+                                </div>                           
+                            </li>                               
+                        </ul>
                     </div>
+                    <div class="filter">
+                        <ul class="filter-lista">                                                 
+                            <li>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#farg" aria-expanded="false" aria-controls="farg">
+                                    FÄRG
+                                </a>
+                                <div class="collapse" id="farg">
+                                    <div class="well">
+                                        <ul>
+                                            <li><a href="#"><span class="color-swatch" style="background-color: blue;"><p>Blå</p></span></a></li>
+                                            <li><a href="#"><span class="color-swatch" style="background-color: brown;"><p>Brun</p></span></a></li>
+                                            <li><a href="#"><span class="color-swatch" style="background-color: green;"><p>Grön</p></span></a></li>
+                                            <li><a href="#"><span class="color-swatch" style="background-color: yellow;"><p>Gul</p></span></a></li>
+                                            <li><a href="#"><span class="color-swatch" style="background-color: pink;"><p>Rosa</p></span></a></li>
+                                            <li><a href="#"><span class="color-swatch" style="background-color: red;"><p>Röd</p></span></a></li>
+                                            <li><a href="#"><span class="color-swatch" style="background-color: black;"><p>Svart</p></span></a></li>
+                                            <li><a href="#"><span class="color-swatch" style="background-color: white;"><p>vit</p></span></a></li>                                          
+                                        </ul>
+                                    </div>
+                                </div>                           
+                            </li>                               
+                        </ul>
+                    </div>
+                    <div class="filter">
+                        <ul class="filter-lista">                                                 
+                            <li>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#pris" aria-expanded="false" aria-controls="pris">
+                                    PRIS
+                                </a>
 
-                    <div class="col-lg-2 filterdel">
-                        <div class="filter">
-                            <ul class="filter-lista">
-                                <li><h3>FILTER</h3></li>
-                                <li>
-                                    <a class="btn btn-primary" data-toggle="collapse" href="#marke" aria-expanded="false" aria-controls="marke">
-                                        MÄRKE
-                                    </a>
-                                    <div class="collapse" id="marke">
-                                        <div class="well">
-                                            <ul>
-                                                <li><a href="#"><p>Appertiff</p></a></li>
-                                                <li><a href="#"><p>DC</p></a></li>
-                                                <li><a href="#"><p>Skank</p></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>                           
-                                </li>                               
-                            </ul>
+                                <div class="collapse" id="pris">
+                                    <div class="well">
+                                        <ul>
+                                            <li><a href="#"><p>Lägst till högst</p></a></li>
+                                            <li><a href="#"><p>Högst till lägst</p></a></li>                                                                                                                                
+                                        </ul>
+                                    </div>
+                                </div>                           
+                            </li>                               
+                        </ul>
+                    </div>                   
+                    <div class="filter">
+                        <ul class="filter-lista">                                                 
+                            <li>
+                                <a class="btn btn-primary button-filter" href="#" role="button">RENSA FILTER</a>                                                                                   
+                            </li>                               
+                        </ul>
+                    </div>
+                </div>                   
+
+                <div class="col-lg-10">
+                    <div class="row fyrabox-row">
+                        <div class="headline-container">
+                            <div class="col-lg-12 RN">
+                                <div class="headline"><h3><span class="headline-center">T-SHIRTS</span></div></h3>
+                            </div>
                         </div>
-                        <div class="filter">
-                            <ul class="filter-lista">                                                 
-                                <li>
-                                    <a class="btn btn-primary" data-toggle="collapse" href="#farg" aria-expanded="false" aria-controls="farg">
-                                        FÄRG
-                                    </a>
-                                    <div class="collapse" id="farg">
-                                        <div class="well">
-                                            <ul>
-                                                <li><a href="#"><p>Blå</p></a></li>
-                                                <li><a href="#"><p>Grön</p></a></li>
-                                                <li><a href="#"><p>Gul</p></a></li>
-                                                <li><a href="#"><p>Röd</p></a></li>
-                                                <li><a href="#"><p>Svart</p></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>                           
-                                </li>                               
-                            </ul>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
                         </div>
-                        <div class="filter">
-                            <ul class="filter-lista">                                                 
-                                <li>
-                                    <a class="btn btn-primary" data-toggle="collapse" href="#pris" aria-expanded="false" aria-controls="pris">
-                                        PRIS
-                                    </a>
-                                    <div class="collapse" id="pris">
-                                        <div class="well">
-                                            <ul>
-                                                <li><a href="#"><p>100 SEK - 499 SEK</p></a></li>
-                                                <li><a href="#"><p>500 SEK - 999 SEK</p></a></li>
-                                                <li><a href="#"><p>1000 SEK - 499 SEK</p></a></li>
-                                                <li><a href="#"><p>1500 SEK - 1999 SEK</p></a></li>
-                                                <li><a href="#"><p>2000 SEK eller mer</p></a></li>                                                                                  
-                                            </ul>
-                                        </div>
-                                    </div>                           
-                                </li>                               
-                            </ul>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
                         </div>
                     </div>
-                    
-                    <div class="col-lg-10">
-                        <div class="row fyrabox-row">
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
+                    <div class="row fyrabox-row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>
                                     <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <br>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <br>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <br>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
+                                </div></a>
                         </div>
-                        <div class="row fyrabox-row">
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>
                                     <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <br>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <h3>T-shirt</h3>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <br>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
+                                </div></a>
                         </div>
-                        <div class="row fyrabox-row">
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>
                                     <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <br>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <br>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
-                                    <h3>Skank</h3>                               
-                                    <br>
-                                    <span class="price">499 SEK</span>
-                                </div>
-                            </div>
+                                </div></a>
                         </div>
-                        <div class="row fyrabox-row">
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>
                                     <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
+                                </div></a>
+                        </div>
+                    </div>
+                    <div class="row fyrabox-row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>
                                     <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
+                                </div></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>
                                     <span class="price">499 SEK</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                                <div class="beskrivnig">
-                                    <img src="http://placehold.it/350x450" class="img-responsive" alt="Responsive image">
+                                </div></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>
                                     <span class="price">499 SEK</span>
-                                </div>
-                            </div>
+                                </div></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
+                        </div>
+                    </div>
+                    <div class="row fyrabox-row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
+                            <a href="#"><div class="beskrivnig">
+                                    <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
+                                    <h3>Skank</h3>                               
+                                    <br>
+                                    <span class="price">499 SEK</span>
+                                </div></a>
+                        </div>
 
-                            <div class="col-lg-12 byttsida">
-                                
-                                <ul>
-                                    <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
-                                </ul>
-                                
-                            </div>
+                        <div class="col-lg-12 byttsida">
+
+                            <ul>
+                                <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
+                                <li class="test1"><a href="#" class="test2">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                            </ul>
 
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -265,6 +276,5 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
 
-        }
     </body>
 </html>

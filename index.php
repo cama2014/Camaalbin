@@ -71,30 +71,28 @@
                     </div>
                 </div>
 
-                <div class="row RN-row">
-                    <div class="col-lg-12 RN">
-                        <div class="headline"><h3><span class="headline-center">REA</span></div></h3>
+                <div class="row fyrabox-row">
+                    <div class="header-container">
+                        <div class="col-lg-12 RN">
+                            <div class="headline"><h3><span class="headline-center">REA</span></div></h3>
+                        </div>
                     </div>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
                 </div>
 
                 <div class="row fyrabox-row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div>
-                </div>
-
-                <div class="row RN-row">
-                    <div class="col-lg-12 RN">
-                        <div class="headline"><h3><span class="headline-center">NYHETER</span></div></h3>
+                    <div class="header-container">
+                        <div class="col-lg-12 RN">
+                            <div class="headline"><h3><span class="headline-center">NYHETER</span></div></h3>
+                        </div>
                     </div>
-                </div>
-
-                <div class="row fyrabox-row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="http://placehold.it/350x550" class="img-responsive" alt="Responsive image"></div>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
                 </div>
 
             </div>

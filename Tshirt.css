@@ -2,20 +2,18 @@
 /*filter del*/
 
 .col-lg-2{
-    
-/*    background-color: pink;
-    height: 20px;*/
-    
+
+    /*    background-color: pink;
+        height: 20px;*/
+
 }
 
 .col-lg-2.filterdel{
 
     padding: 0;
     margin: 0;
-    margin-top: 20px;
-    /*border-right: solid thin lightgray;*/
-    /*border-left: solid thin lightgray;*/
-    border-bottom: solid thin lightgrey;
+    margin-top: 60px;
+    /*border-bottom: solid thin lightgrey;*/
 
 }
 
@@ -35,17 +33,19 @@ ul.filter-lista li{
 
 ul.filter-lista li h3{
 
-    color: #BD0000;
     padding: 0px;
     margin: 24px 0px 24px 12px;
+    color: #BD0000;
 
 }
 
 .btn-primary {
 
+    width: 100%;
     color: #222;
     background-color: whitesmoke;
     border-color: whitesmoke;
+    text-align: left;
 
 }
 
@@ -54,6 +54,18 @@ ul.filter-lista li h3{
     color: #BD0000;
     background-color: whitesmoke; 
     border-color: whitesmoke; 
+
+}
+
+.btn-primary.button-filter {
+
+    width: 100%;
+    margin-top: 35px;
+    color: #BD0000;
+    background-color: whitesmoke;
+    border-color: #BD0000;
+    border-radius: 0px;
+    text-align: center;
 
 }
 
@@ -81,22 +93,46 @@ ul.filter-lista li h3{
 .well ul li{
 
     list-style: none;
-    border-top: solid thin lightgray  
+    border-top: solid thin lightgray;
+
+}
+
+.well ul li:hover{
+
+    background-color: #F0F0F0;
 
 }
 
 .well ul li a{
-    
+
     text-decoration: none;
     color: #777;
-    
+
 }
 
 .well ul li a p{
-    
+
     margin: 0;
     padding: 12px;
-    
+
+}
+
+.well ul li a span{
+
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    border: 1px solid lightgray;
+
+}
+
+.well ul li a span p{
+
+    margin: 0px;
+    margin-left: 30px;
+    padding: 0px;
+
 }
 
 /*produkter del*/
@@ -133,95 +169,39 @@ ul.filter-lista li h3{
 
 }
 
-/*test*/
-
-.containertest{
-
-    width: available;
-    float:left;
-
-}
-
-.headertest{
-
-    border-bottom: solid thin lightgray;
-    background: no-repeat;
-    background-position:right 0px;
-    cursor:pointer;
-}
-
-.headertest h2{
-
-    color: #777;
-    padding: 0;
-    margin: 5px 5px 10px 5px;
-
-}
-
-.collapsed .headertest{
-
-}
-
-.contenttest{
-    /*background-color: greenyellow;*/
-    height:auto;
-    min-height:100px;
-    overflow:hidden;
-    transition:all 0.3s linear;
-    -webkit-transition:all 0.3s linear;
-    -moz-transition:all 0.3s linear;
-    -ms-transition:all 0.3s linear;
-    -o-transition:all 0.3s linear;
-}
-
-.contenttest ul li{
-
-    list-style: none;
-
-}
-
-.contenttest ul li a{
-
-    color: #222;
-    font-size: 15px;
-    text-decoration: none;
-    float: left;
-    padding: 10px;
-    border-bottom: solid thin lightgray;
-
-}
-
-.collapsed .contenttest{
-    min-height:0px;
-    height:0px;
-}
-
 /*byttsidasak*/
 
 .col-lg-12.byttsida ul{
-    
+
     float: right;
-    
+
 }
 
 .col-lg-12.byttsida ul li{
-    
-    display: inline;
-    padding: 5px;
-    
-}
 
-.col-lg-12.byttsida ul li:active{
-    
     display: inline;
-    color: #BD0000;
     padding: 5px;
-    
+
 }
 
 .col-lg-12.byttsida ul li a{
-    
+
     color: #777;
     text-decoration: none;
-    
+
+}
+
+/*test*/
+
+.col-lg-12.byttsida ul li.test1{
+
+    outline: solid thin #BD0000;
+
+}
+
+.col-lg-12.byttsida ul li a.test2{
+
+    color: #BD0000;
+    text-decoration: none;
+
 }
