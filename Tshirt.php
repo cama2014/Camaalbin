@@ -35,7 +35,7 @@
                 <div class="col-lg-2 filterdel">
                     <div class="filter">
                         <ul class="filter-lista">
-                            <li><h3>FILTER</h3></li>
+                            <li><h3>KILLE</h3></li>
                             <li>
                                 <a class="btn btn-primary" data-toggle="collapse" href="#marke" aria-expanded="false" aria-controls="marke">
                                     MÄRKE

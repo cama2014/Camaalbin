@@ -69,6 +69,12 @@ ul.filter-lista li h3{
 
 }
 
+.btn-primary.button-filter:hover {
+
+    background-color: #F0F0F0;
+
+}
+
 /*filter del dropdown*/ 
 
 .well {

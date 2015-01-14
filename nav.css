@@ -103,7 +103,9 @@
 /*nav undermeny*/
 
 li.dropdown.KT:hover .dropdown-menu {
+    
     display: block;
+    
 }
 
 .dropdown-menu {
@@ -216,6 +218,44 @@ li.dropdown.KT:hover .dropdown-menu {
     margin-bottom: 0;
     font-weight: 400;
     cursor: pointer;
+
+}
+
+.checkbox{
+
+    color: #777;
+
+}
+
+.form-group.glomtlosen{
+
+    margin-bottom: 44px;
+
+}
+
+a.glomtlos{
+
+    font-size: 10px;
+    color: #BD0000;
+
+
+}
+
+.btn-primary.button-loggareg {
+
+    width: auto;
+    margin-top: 0px;
+    color: #BD0000;
+    background-color: whitesmoke;
+    border-color: #BD0000;
+    border-radius: 0px;
+    text-align: center;
+
+}
+
+.btn-primary.button-loggareg:hover {
+
+    background-color: #F0F0F0;  
 
 }
 

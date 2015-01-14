@@ -39,10 +39,10 @@
 
             <div class="col-lg-2 col-md-2 col-sm-2 footer">
                 <h2>Sociala medier</h2>
-                <a href ="www.facebook.com"><img src="img/facebook-icon.png" class="img-responsive" alt="Responsive image"></a>
-                <a href ="www.twitter.com"><img src="img/facebook-icon.png" class="img-responsive" alt="Responsive image"></a>
-                <a href ="www.twitter.com"><img src="img/twitter-icon.png" class="img-responsive" alt="Responsive image"></a>
-                <a href ="www.twitter.com"><img src="img/twitter-icon.png" class="img-responsive" alt="Responsive image"></a>
+                <a href ="https://www.facebook.com/"><img src="img/facebookicon.png" width="50px" height="50px" class="img-responsive" alt="Responsive image"></a>
+                <a href ="https://www.tumblr.com/"><img src="img/tumblericon.png" width="50px" height="50px" class="img-responsive" alt="Responsive image"></a>
+                <a href ="http://instagram.com/"><img src="img/instagramicon.png" width="50px" height="50px" class="img-responsive" alt="Responsive image"></a>
+                <a href ="https://twitter.com/?lang=sv"><img src="img/twittericon.png" class="img-responsive" alt="Responsive image"></a>
             </div>   
 
         </div>

@@ -88,11 +88,13 @@
                                             <div class="form-group">
                                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group glomtlosen">
                                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Lösenord">
+                                                <a class="glomtlos" href="#">Glömt lösenord?</a>
                                             </div>
+                                            
                                             <div class="checkbox">
-                                                <button type="submit" class="btn btn-default">Logga in</button>
+                                                <a class="btn btn-primary button-loggareg" href="#" role="button">Logga in</a>
                                                 <label>
                                                     <input type="checkbox"> Kom ihåg mig
                                                 </label>
@@ -111,13 +113,13 @@
                                             <div class="form-group">
                                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Bekräfta Lösenord">
                                             </div>
-                                            <button type="submit" class="btn btn-default">Regestrera dig</button>
+                                            <a class="btn btn-primary button-loggareg" href="#" role="button">Regestrera dig</a>
                                         </form> 
                                     </div>
                                 </div>
                             </ul>
                         </li>
-                        <li><a href="#">KUNDTJÄNST</a></li>
+                        <li><a href="omoss.php">OM OSS</a></li>
 
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>

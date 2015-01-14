@@ -1,0 +1,49 @@
+
+.omoss-row{
+
+    padding: 10px;
+
+}
+
+/*Första delen*/
+
+.col-lg-12.omoss-del{
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+    outline: solid thin lightgray;
+
+}
+
+.col-lg-12.omoss-del h3{
+
+    color: #BD0000;
+
+}
+
+/*andra delen*/
+
+.profil-b{
+    
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 0px;
+    text-align: center;
+    /*outline: solid thin lightgray;*/
+
+}
+
+.profil-b h3{
+
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.img-responsive.profil-bild{
+    
+    display: inline;
+    margin: 10px;
+    
+}
