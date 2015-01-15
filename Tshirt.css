@@ -1,13 +1,6 @@
 
 /*filter del*/
 
-.col-lg-2{
-
-    /*    background-color: pink;
-        height: 20px;*/
-
-}
-
 .col-lg-2.filterdel{
 
     padding: 0;
@@ -113,6 +106,13 @@ ul.filter-lista li h3{
 
     text-decoration: none;
     color: #777;
+
+}
+
+.well ul li a.crossed p{
+
+    text-decoration: none;
+    color: #BD0000;
 
 }
 

@@ -43,8 +43,8 @@
                                 <div class="collapse" id="marke">
                                     <div class="well">
                                         <ul>
-                                            <li><a href="#"><p>Appertiff</p></a></li>
-                                            <li><a href="#"><p>Burton</p></a></li>
+                                            <li><a href="#"><img src="img/appbar.checkmark.uncrossed.png" class="img-responsive" alt="Responsive image"><p>Appertiff</p></a></li>
+                                            <li><a href="#" class="crossed"><img src="img/appbar.checkmark.cross.png" class="img-responsive" alt="Responsive image"><p>Burton</p></a></li>
                                             <li><a href="#"><p>Carhartt</p></a></li>
                                             <li><a href="#"><p>DC</p></a></li>
                                             <li><a href="#"><p>Etnies</p></a></li>
@@ -66,14 +66,14 @@
                                 <div class="collapse" id="farg">
                                     <div class="well">
                                         <ul>
-                                            <li><a href="#"><span class="color-swatch" style="background-color: blue;"><p>Blå</p></span></a></li>
-                                            <li><a href="#"><span class="color-swatch" style="background-color: brown;"><p>Brun</p></span></a></li>
-                                            <li><a href="#"><span class="color-swatch" style="background-color: green;"><p>Grön</p></span></a></li>
-                                            <li><a href="#"><span class="color-swatch" style="background-color: yellow;"><p>Gul</p></span></a></li>
-                                            <li><a href="#"><span class="color-swatch" style="background-color: pink;"><p>Rosa</p></span></a></li>
-                                            <li><a href="#"><span class="color-swatch" style="background-color: red;"><p>Röd</p></span></a></li>
-                                            <li><a href="#"><span class="color-swatch" style="background-color: black;"><p>Svart</p></span></a></li>
-                                            <li><a href="#"><span class="color-swatch" style="background-color: white;"><p>vit</p></span></a></li>                                          
+                                            <li><a href="#"><span class="farg-typ" style="background-color: blue;"><p>Blå</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: brown;"><p>Brun</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: green;"><p>Grön</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: yellow;"><p>Gul</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: pink;"><p>Rosa</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: red;"><p>Röd</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: black;"><p>Svart</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: white;"><p>vit</p></span></a></li>                                          
                                         </ul>
                                     </div>
                                 </div>                           
