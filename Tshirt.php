@@ -43,14 +43,14 @@
                                 <div class="collapse" id="marke">
                                     <div class="well">
                                         <ul>
-                                            <li><a href="#"><img src="img/appbar.checkmark.uncrossed.png" class="img-responsive" alt="Responsive image"><p>Appertiff</p></a></li>
-                                            <li><a href="#" class="crossed"><img src="img/appbar.checkmark.cross.png" class="img-responsive" alt="Responsive image"><p>Burton</p></a></li>
-                                            <li><a href="#"><p>Carhartt</p></a></li>
-                                            <li><a href="#"><p>DC</p></a></li>
-                                            <li><a href="#"><p>Etnies</p></a></li>
-                                            <li><a href="#"><p>Humör</p></a></li>
-                                            <li><a href="#"><p>Neff</p></a></li>
-                                            <li><a href="#"><p>Skank</p></a></li>
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Appertiff</p></span></a></li>
+                                            <li><a href="#" class="crossed"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Burton</p></span></a></li>
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Carhartt</p></span></a></li>
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>DC</p></span></a></li>
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Etnies</p></span></a></li>
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Humör</p></span></a></li>
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Neff</p></span></a></li>
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Skank</p></span></a></li>
                                         </ul>
                                     </div>
                                 </div>                           
@@ -71,7 +71,7 @@
                                             <li><a href="#"><span class="farg-typ" style="background-color: green;"><p>Grön</p></span></a></li>
                                             <li><a href="#"><span class="farg-typ" style="background-color: yellow;"><p>Gul</p></span></a></li>
                                             <li><a href="#"><span class="farg-typ" style="background-color: pink;"><p>Rosa</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: red;"><p>Röd</p></span></a></li>
+                                            <li><a href="#" class="crossed"><span class="farg-typ" style="background-color: red;"><p>Röd</p></span></a></li>
                                             <li><a href="#"><span class="farg-typ" style="background-color: black;"><p>Svart</p></span></a></li>
                                             <li><a href="#"><span class="farg-typ" style="background-color: white;"><p>vit</p></span></a></li>                                          
                                         </ul>
@@ -90,8 +90,8 @@
                                 <div class="collapse" id="pris">
                                     <div class="well">
                                         <ul>
-                                            <li><a href="#"><p>Lägst till högst</p></a></li>
-                                            <li><a href="#"><p>Högst till lägst</p></a></li>                                                                                                                                
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Lägst till högst</p></span></a></li>
+                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Högst till lägst</p></span></a></li>                                                                                                                               
                                         </ul>
                                     </div>
                                 </div>                           

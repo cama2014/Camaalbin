@@ -106,24 +106,21 @@ ul.filter-lista li h3{
 
     text-decoration: none;
     color: #777;
+    width: 100%;
 
 }
 
-.well ul li a.crossed p{
+/*i kryss ruta*/
 
-    text-decoration: none;
-    color: #BD0000;
+.well ul li a span p{
 
-}
-
-.well ul li a p{
-
-    margin: 0;
-    padding: 12px;
+    margin: 0px;
+    margin-left: 30px;
+    padding: 0px;
 
 }
 
-.well ul li a span{
+.well ul li a span.farg-typ{
 
     display: inline-block;
     width: 24px;
@@ -133,11 +130,49 @@ ul.filter-lista li h3{
 
 }
 
-.well ul li a span p{
+.well ul li a span.marke-typ{
 
-    margin: 0px;
-    margin-left: 30px;
-    padding: 0px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 10px;
+    border: 1px solid lightgray;
+
+}
+
+/*i kryss ruta crossed*/
+
+.well ul li a.crossed span.marke-typ{
+
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 10px;
+    border: 1px solid #BD0000;
+    color: #BD0000;
+
+}
+
+.ruta{
+    
+    width: 10px;
+    height: 10px;
+    background-color: #BD0000;
+    margin-left: 14px;
+    margin-top: 14px;
+    position: absolute;
+    
+      
+}
+
+.well ul li a.crossed span.farg-typ{
+
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    color: #BD0000;
 
 }
 
