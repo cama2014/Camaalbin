@@ -11,6 +11,10 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
         <link href="nav.css" rel="stylesheet">
+        <link href="omoss.css" rel="stylesheet">
+        <link href="Tshirt.css" rel="stylesheet">
+        <link href="produktsida2.css" rel="stylesheet">
+        <link href="kassa.css" rel="stylesheet">
         <link href="footer.css" rel="stylesheet">
 
 

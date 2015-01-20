@@ -50,21 +50,10 @@ ul.filter-lista li h3{
 
 }
 
-.btn-primary.button-filter {
+.btn-primary.huvud-button.button-filter {
 
     width: 100%;
     margin-top: 35px;
-    color: #BD0000;
-    background-color: whitesmoke;
-    border-color: #BD0000;
-    border-radius: 0px;
-    text-align: center;
-
-}
-
-.btn-primary.button-filter:hover {
-
-    background-color: #F0F0F0;
 
 }
 
@@ -177,7 +166,7 @@ ul.filter-lista li h3{
 
 }
 
-.well ul li a.crossed span.farg-typ{
+.well ul li a span.farg-typ-crossed{
 
     display: inline-block;
     width: 24px;

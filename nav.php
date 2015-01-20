@@ -94,7 +94,7 @@
                                             </div>
                                             
                                             <div class="checkbox">
-                                                <a class="btn btn-primary button-loggareg" href="#" role="button">Logga in</a>
+                                                <a class="btn btn-primary huvud-button" href="#" role="button">Logga in</a>
                                                 <label>
                                                     <input type="checkbox"> Kom ihåg mig
                                                 </label>
@@ -113,7 +113,7 @@
                                             <div class="form-group">
                                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Bekräfta Lösenord">
                                             </div>
-                                            <a class="btn btn-primary button-loggareg" href="#" role="button">Regestrera dig</a>
+                                            <a class="btn btn-primary huvud-button" href="#" role="button">Regestrera dig</a>
                                         </form> 
                                     </div>
                                 </div>

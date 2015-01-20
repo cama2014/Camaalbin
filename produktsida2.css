@@ -43,34 +43,43 @@ body{
 
 }
 
-
-
-
-
-
 /*section */
+
 .col-lg-6.section{
+    
     margin-top:20px;
     margin-bottom:40px;
     padding-left:0px;
+    
 }
 .col-lg-6.section img{
+    
     margin-bottom:40px;
+    
 }
 
 
 h4,h5{
+    
     font-size:40px;
-}
-.col-lg-6.sectiontwo{
-    padding-left: 40px;
-}
-h5{
-    color:#BD0000;
+    
 }
 
-.btn-primary.button-filter.button-köp{
+.col-lg-6.sectiontwo{
+    
+    padding-left: 40px;
+    
+}
+h5{
+    
+    color:#BD0000;
+    
+}
+
+.btn-primary.huvud-button.button-köp{
+    
     margin-top:10px;
+    
 }
        
 
@@ -85,44 +94,3 @@ h5{
     position: relative;
 
 }
-
-.headline {
-
-    text-align: center;
-    position: absolute;
-    top: -11px;
-    width: 100%;
-    height: 50px;
-    color: #BD0000;
-
-}
-
-.headline span {
-
-    font-size: 20px;
-    line-height: 20px;
-    padding: 10px;
-    background: whitesmoke;
-    margin-right: 25px;
-
-}
-
-.headline h3{
-
-    margin: 0px;
-    font-size: 20px;
-
-}
-
-.headline-container{
-    
-    margin: 0px 10px 1px 10px;
-    
-}
-
-
-
-
-
-
-

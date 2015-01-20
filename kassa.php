@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -7,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CAMA - Produkt</title>
+        <title>CAMA - Hem</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -36,30 +34,25 @@
         <!--section-->
 
         <div class="container section-container">
+            <div class="row">
+                <div class="kassa-row">
 
+                    <div class="col-lg-4 col-md-4 col-sm-4 kassa-rutor">
+                        <div class="headline-kassa"><h3><span class="headline-center">ADRESSUPPGIFTER</span></div></h3>
+                        <div class="adressupp"></div></div>
 
-            <div class="headline-container">
-                <div class="col-lg-12 RN line-margin">
-                    <div class="headline"><h3><span class="headline-center">Produktnamn här</span></div></h3>
-                </div>
-            </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 kassa-rutor">
+                        <div class="headline-kassa"><h3><span class="headline-center">KORT INFO</span></div></h3>
+                        <div class="adressupp"></div></div>
 
+                    <div class="col-lg-4 col-md-4 col-sm-4 kassa-rutor">
+                        <div class="headline-kassa"><h3><span class="headline-center">KUNDVAGNEN</span></div></h3>
+                        <div class="adressupp">
 
-            <div class="row section-row">
-                <div class="col-lg-6 section">
-                    <img src="img/tshirtbildtest.jpg" width="560" height="700" class="img-responsive" alt="Responsive image">
-                </div>
+                            <a class="btn btn-primary huvud-button" href="#" role="button">Beställ</a>
 
-                <div class="container right-div">
-                    <div class="col-lg-6 sectiontwo">
+                        </div></div>
 
-                        <h5>Info</h5>
-                        <p>Produkt beskrivning lorem ipsum lorem ipsum lorem ipsumlorem ipsum. 
-                            Denna produkt kommer göra dig lycklig. Det är en väldigt fin produkt gjord av typ importerad från de egyptiska pyramiderna!</p>
-
-                        <h5>499 SEK</h5>
-                        <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>
-                    </div>
                 </div>
             </div>
         </div>  

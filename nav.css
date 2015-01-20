@@ -241,7 +241,7 @@ a.glomtlos{
 
 }
 
-.btn-primary.button-loggareg {
+.btn-primary.huvud-button {
 
     width: auto;
     margin-top: 0px;
@@ -253,9 +253,10 @@ a.glomtlos{
 
 }
 
-.btn-primary.button-loggareg:hover {
+.btn-primary.huvud-button:hover {
 
-    background-color: #F0F0F0;  
+    background-color: #F0F0F0;
+    border-color: #BD0000;
 
 }
 

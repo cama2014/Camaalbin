@@ -8,10 +8,13 @@
         <title>CAMA - T-shirts</title>
 
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
-        <link href="Tshirt.css" rel="stylesheet">
         <link href="nav.css" rel="stylesheet">
+        <link href="omoss.css" rel="stylesheet">
+        <link href="Tshirt.css" rel="stylesheet">
+        <link href="produktsida2.css" rel="stylesheet">
+        <link href="kassa.css" rel="stylesheet">
         <link href="footer.css" rel="stylesheet">
 
 
@@ -71,7 +74,7 @@
                                             <li><a href="#"><span class="farg-typ" style="background-color: green;"><p>Grön</p></span></a></li>
                                             <li><a href="#"><span class="farg-typ" style="background-color: yellow;"><p>Gul</p></span></a></li>
                                             <li><a href="#"><span class="farg-typ" style="background-color: pink;"><p>Rosa</p></span></a></li>
-                                            <li><a href="#" class="crossed"><span class="farg-typ" style="background-color: red;"><p>Röd</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: red;"><p>Röd</p></span></a></li>
                                             <li><a href="#"><span class="farg-typ" style="background-color: black;"><p>Svart</p></span></a></li>
                                             <li><a href="#"><span class="farg-typ" style="background-color: white;"><p>vit</p></span></a></li>                                          
                                         </ul>
@@ -90,8 +93,8 @@
                                 <div class="collapse" id="pris">
                                     <div class="well">
                                         <ul>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Lägst till högst</p></span></a></li>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Högst till lägst</p></span></a></li>                                                                                                                               
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Lägst till högst</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Högst till lägst</p></span></a></li>                                                                                                                               
                                         </ul>
                                     </div>
                                 </div>                           
@@ -101,7 +104,7 @@
                     <div class="filter">
                         <ul class="filter-lista">                                                 
                             <li>
-                                <a class="btn btn-primary button-filter" href="#" role="button">RENSA FILTER</a>                                                                                   
+                                <a class="btn btn-primary huvud-button button-filter" href="#" role="button">RENSA FILTER</a>                                                                                   
                             </li>                               
                         </ul>
                     </div>
@@ -275,7 +278,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/min.js"></script>
+        <script src="js/egen.js"></script>
 
     </body>
 </html>
