@@ -142,18 +142,19 @@ ul.filter-lista li h3{
 
 /*i kryss ruta crossed*/
 
-.well ul li a.crossed span.marke-typ{
-
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    margin: 10px;
-    border: 1px solid #BD0000;
-    color: #BD0000;
-
+.ruta{
+    
+    width: 10px;
+    height: 10px;
+    background-color: whitesmoke;
+    margin-left: 14px;
+    margin-top: 14px;
+    position: absolute;
+    
+      
 }
 
-.ruta{
+.ruta-crossed{
     
     width: 10px;
     height: 10px;
@@ -163,6 +164,17 @@ ul.filter-lista li h3{
     position: absolute;
     
       
+}
+
+.well ul li a span.marke-typ-crossed{
+
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 10px;
+    border: 1px solid #BD0000;
+    color: #BD0000;
+
 }
 
 .well ul li a.crossed span.farg-typ{

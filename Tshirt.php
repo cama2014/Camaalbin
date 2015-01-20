@@ -43,14 +43,14 @@
                                 <div class="collapse" id="marke">
                                     <div class="well">
                                         <ul>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Appertiff</p></span></a></li>
-                                            <li><a href="#" class="crossed"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Burton</p></span></a></li>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Carhartt</p></span></a></li>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>DC</p></span></a></li>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Etnies</p></span></a></li>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Humör</p></span></a></li>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Neff</p></span></a></li>
-                                            <li><a href="#"><span class="marke-typ" style="background-color: whitesmoke;"><p>Skank</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Appertiff</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Burton</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Carhartt</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>DC</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Etnies</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Humör</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Neff</p></span></a></li>
+                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Skank</p></span></a></li>
                                         </ul>
                                     </div>
                                 </div>                           
@@ -275,6 +275,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/min.js"></script>
 
     </body>
 </html>
