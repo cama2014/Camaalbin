@@ -44,7 +44,6 @@
                 </div>
             </div>
 
-
             <div class="row section-row">
                 <div class="col-lg-6 section">
                     <img src="img/tshirtbildtest.jpg" width="560" height="700" class="img-responsive" alt="Responsive image">

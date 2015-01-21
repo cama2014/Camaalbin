@@ -1,0 +1,95 @@
+
+.mittkonto-row{
+
+    padding: 10px;
+
+}
+
+.col-lg-6.mittkonto-section{
+
+    min-height: 1px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    height: 600px;
+    outline: solid thin lightgray;
+
+}
+
+/*konto info lista*/
+
+.col-lg-6.mittkonto-section ul li{
+
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.col-lg-6.mittkonto-section ul li a{
+
+    color: #BD0000;
+    text-decoration: none;
+
+}
+
+/*popup test*/
+
+label {
+
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #222;
+
+}
+
+.popup-test{
+
+    margin-left: 150px;
+    background-color: whitesmoke;
+    outline: solid thin lightgray;
+    position: absolute;
+    display:  none;
+
+}
+
+.popup-test-up{
+
+    margin-left: 150px;
+    background-color: whitesmoke;
+    outline: solid thin lightgray;
+    position: absolute;
+    display:  block;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+.popup-ruta{
+
+    padding: 10px;
+
+}
+
+.popup-ruta h3{
+
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+
+    border-top: 0px solid pink;
+
+}
+
+.btn-primary.huvud-button.andra-stang{
+
+
+
+}

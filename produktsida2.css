@@ -27,22 +27,6 @@ body{
     }
 }
 
-
-/*header*/
-
-.header-row{
-
-    background-color: #222;
-
-}
-
-.col-lg-2.logo{
-
-    color: white;
-    outline: solid thin orange;
-
-}
-
 /*section */
 
 .col-lg-6.section{
@@ -70,6 +54,7 @@ h4,h5{
     padding-left: 40px;
     
 }
+
 h5{
     
     color:#BD0000;

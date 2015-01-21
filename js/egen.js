@@ -9,3 +9,12 @@ $(document).ready(function() {
 
     });
 });
+
+$(document).ready(function() {
+    $(".mittkonto-section a").click(function() {
+
+        $(this).children(".popup-test").toggleClass("popup-test-up");
+//        $(this).children(".andra-stang").hide("popup-test-up");
+
+    });
+});
