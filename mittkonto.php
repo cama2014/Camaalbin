@@ -41,51 +41,142 @@
                         <div class="headline"><h3><span class="headline-center">MITT KONTO</span></div></h3>
                     </div>
                 </div>
+                <div class="mittkonto-section-row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">KONTAKTINFORMATION</span></div></h3>
+                            </div>
+                        </div>
+                        <div class="kontinfo rutairuta">
+                            <table class="table table-info">
+                                <tr>
+                                    <td><p>Förnamn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Efternamn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>E-post</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Telefonnummer</p></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Ändra Kontaktinformation</a></td>
+                                </tr>
+                            </table>
 
-                <div class="col-lg-6 mittkonto-section">
-                    <ul>
+                            <div class="popup-mittkonto-kontinfo">
+                                <div class="popup-ruta">
+                                    <h3>PERSONLIGA DETALJER</h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td><p>Förnamn</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>Efternamn</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>E-post</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-post"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>Telefonnummer</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><button class="btn btn-primary huvud-button tillbaka-button-kontinfo" type="submit">TILLBAKA</button></td>
+                                            <td><button class="btn btn-primary huvud-button andra-button-kontinfo" type="submit">ÄNDRA</button></td>
+                                        </tr>
+                                    </table>                                     
+                                </div>
+                            </div>
 
-                        <li><a href="#"><div class="popup-test">
+                        </div></div>
 
-                                    <p>ÄNDRA PERSONLIGA DETALJER</p>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">                                    
-                                    <a href="#" class="btn btn-primary huvud-button andra-stang" role="button">ÄNDRA</a>
+                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">ADRESSBOK</span></div></h3>
+                            </div>
+                        </div>
+                        <div class="adressbok rutairuta">
+                            <table class="table table-info">
+                                <tr>
+                                    <td><p>Namn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Adress</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Ort</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Postnummer</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Land</p></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Ändra Kontaktinformation</a></td>
+                                </tr>
+                            </table>
 
-                                </div><p>Kontaktinformation</p></a></li>
+                            <div class="popup-mittkonto-adressbok">
+                                <div class="popup-ruta">
+                                    <h3>ÄNDRA ADRESSBOK</h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td><p>Förnamn</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>Efternamn</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>Adress</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adress"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>Ort</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ort"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>Postnummer</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Postnummer"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><p>Land</p></td>
+                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Land"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><button class="btn btn-primary huvud-button tillbaka-button-adressbok" type="submit">TILLBAKA</button></td>
+                                            <td><button class="btn btn-primary huvud-button andra-button-adressbok" type="submit">ÄNDRA</button></td>
+                                        </tr>
+                                    </table>                                     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                        <li><a href="#"><div class="popup-test">
+                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">LOGGA UT</span></div></h3>
+                            </div>
+                            <div class="loggaut rutairuta">
+                                
+                                <a class="btn btn-primary huvud-button loggaut-button" href="#" role="button">LOGGA UT</a>
+                                
+                            </div>
+                        </div>
+                    </div>
 
-                                    <div class="popup-ruta">
-                                        <h3>PERSONLIGA DETALJER</h3>
-                                        <table class="table">
-                                            <tr>
-                                                <td><label for="exampleInputPassword1">Förnamn</label></td>
-                                                <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
-                                            </tr>
-                                            <tr>
-                                                <td><label for="exampleInputPassword1">Efternamn</label></td>
-                                                <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
-                                            </tr>
-                                            <tr>
-                                                <td><label for="exampleInputPassword1">E-post</label></td>
-                                                <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-post"></td>
-                                            </tr>
-                                            <tr>
-                                                <td><label for="exampleInputPassword1">Telefonnummer</label></td>
-                                                <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer"></td>
-                                            </tr>
-                                        </table>
-
-                                        <button class="btn btn-primary huvud-button andra-button" type="submit">ÄNDRA</button>
-                                    </div>
-
-                                </div><p> Ändra Kontaktinformation</p></a></li>
-
-
-                    </ul>
                 </div>
-                <div class="col-lg-6 mittkonto-section"></div>
-
             </div>
         </div>  
 
