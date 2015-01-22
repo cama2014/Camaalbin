@@ -49,20 +49,20 @@ label {
 
 .popup-test{
 
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     background-color: whitesmoke;
     outline: solid thin lightgray;
-    position: absolute;
+/*    position: absolute;*/
     display:  none;
 
 }
 
 .popup-test-up{
 
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     background-color: whitesmoke;
     outline: solid thin lightgray;
-    position: absolute;
+    /*position: absolute;*/
     display:  block;
     box-shadow: 10px 10px 5px #888888;
 
@@ -88,7 +88,7 @@ label {
 
 }
 
-.btn-primary.huvud-button.andra-stang{
+.btn-primary.huvud-button.andra-button{
 
 
 

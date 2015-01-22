@@ -11,10 +11,26 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    $(".nummer").click(function() {
+        $(".ruta2").removeClass("ruta2-crossed");
+        $(this).parent(".ruta2").toggleClass("ruta2-crossed");
+        $(".nummer").removeClass("nummer-crossed");     
+        $(this).toggleClass("nummer-crossed");
+    });
+});
+
+$(document).ready(function() {
     $(".mittkonto-section a").click(function() {
 
-        $(this).children(".popup-test").toggleClass("popup-test-up");
-//        $(this).children(".andra-stang").hide("popup-test-up");
+        $(this).children(".popup-test").show("popup-test-up");
+
+    });
+});
+
+$(document).ready(function() {
+    $(".andra-button").click(function() {
+
+        $(".popup-test").hide("popup-test-up");
 
     });
 });

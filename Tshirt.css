@@ -235,13 +235,26 @@ ul.filter-lista li h3{
 
 /*test*/
 
-.col-lg-12.byttsida ul li.test1{
+.col-lg-12.byttsida ul li.ruta2{
+
+    outline: solid thin whitesmoke;
+
+}
+
+.col-lg-12.byttsida a.nummer{
+
+    color: #777;
+    text-decoration: none;
+
+}
+
+.col-lg-12.byttsida ul li.ruta2-crossed{
 
     outline: solid thin #BD0000;
 
 }
 
-.col-lg-12.byttsida ul li a.test2{
+.col-lg-12.byttsida a.nummer-crossed{
 
     color: #BD0000;
     text-decoration: none;

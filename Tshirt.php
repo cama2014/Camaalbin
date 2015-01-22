@@ -253,16 +253,14 @@
                         </div>
 
                         <div class="col-lg-12 byttsida">
-
                             <ul>
                                 <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
-                                <li class="test1"><a href="#" class="test2">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
+                                <li class="ruta2"><a href="#" class="nummer">1</a></li>
+                                <li class="ruta2"><a href="#" class="nummer">2</a></li>
+                                <li class="ruta2"><a href="#" class="nummer">3</a></li>
+                                <li class="ruta2"><a href="#" class="nummer">4</a></li>
                                 <li><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
                             </ul>
-
                         </div>
 
                     </div>

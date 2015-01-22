@@ -76,10 +76,10 @@
                                             </tr>
                                         </table>
 
-                                        <button class="btn btn-primary huvud-button andra-stang" type="submit">ÄNDRA</button>
+                                        <button class="btn btn-primary huvud-button andra-button" type="submit">ÄNDRA</button>
                                     </div>
 
-                                </div><p>Kontaktinformation</p></a></li>
+                                </div><p> Ändra Kontaktinformation</p></a></li>
 
 
                     </ul>
