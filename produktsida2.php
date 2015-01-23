@@ -55,7 +55,34 @@
                         <h5>Info</h5>
                         <p>Produkt beskrivning lorem ipsum lorem ipsum lorem ipsumlorem ipsum. 
                             Denna produkt kommer göra dig lycklig. Det är en väldigt fin produkt gjord av typ importerad från de egyptiska pyramiderna!</p>
-
+                        <p>Art nr: 3458923792835</p>
+                        
+                        
+                        <div id="farg">
+                                    <div class="well">
+                                        <ul>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: blue;"><p>Blå</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: brown;"><p>Brun</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: green;"><p>Grön</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: yellow;"><p>Gul</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: pink;"><p>Rosa</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: red;"><p>Röd</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: black;"><p>Svart</p></span></a></li>
+                                            <li><a href="#"><span class="farg-typ" style="background-color: white;"><p>vit</p></span></a></li>                                          
+                                        </ul>
+                                    </div>
+                                </div> 
+                        
+                        
+                        
+                        
+                        <div class="btn-group" role="group" aria-label="...">
+                            <a id="btn" href="#size=small"> <button type="button" class="btn btn-default size">S</button></a>
+                              <a id="btn" href="#size=medium"> <button type="button" class="btn btn-default size">M</button></a>
+                            <a id="btn" href="#size=large"><button type="button" class="btn btn-default size">L</button></a>
+                           <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn-default size">XL</button></a>
+                        </div>
+                        
                         <h5>499 SEK</h5>
                         <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>
                     </div>
