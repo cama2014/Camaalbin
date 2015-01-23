@@ -7,9 +7,9 @@ body{
 }
 
 .container {
-    
+
     width: 90%;
-    
+
 }
 @media (min-width: 768px) {
     .container {
@@ -30,48 +30,64 @@ body{
 /*section */
 
 .col-lg-6.section{
-    
+
     margin-top:20px;
     margin-bottom:40px;
     padding-left:0px;
-    
+
 }
 .col-lg-6.section img{
-    
+
     margin-bottom:40px;
-    
+
 }
 
 
 h4,h5{
-    
+
     font-size:40px;
-    
+
 }
 
 .col-lg-6.sectiontwo{
-    
+
     padding-left: 40px;
-    
+
 }
 
 h5{
-    
+
     color:#BD0000;
-    
+
 }
 
 .btn-primary.huvud-button.button-köp{
-    
+
     margin-top:10px;
+
+}
+
+.btn-default.size {
+    color: black;
+    background-color: white;
+    border:1px solid lightgray;
+    width:50px;
+    border-radius: 4px;
     
 }
-       
+
+.btn-default.size:focus, .btn-default.size:target{
+    background-color:lightgray;
+}
+
+/*.btn-default.size:focus{
+    background-color: lightgray;
+}*/
 
 /*REA/Nyheter*/
-    
+
 .col-lg-12.RN.line-margin{
-    
+
     margin: 10px 0 0;
     margin-left:-25px;
     border-top: 1px solid lightgray;
