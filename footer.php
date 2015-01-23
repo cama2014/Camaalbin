@@ -7,7 +7,7 @@
 
             <div class="col-lg-4 col-md-4 col-sm-4 footer">
                 <h2>Kontaka oss!</h2>
-                <p>Tel: 076-422 2353</p>
+                <p>Tel: 070-6392496</p>
                 <p>Tel öppettider mån-fre 10:00-18:00</p>
                 <p>kundtjanst.cama@live.se</p>
                 <p>Butik på Kungsgatan 16</p>

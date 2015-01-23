@@ -104,7 +104,7 @@
                     <div class="filter">
                         <ul class="filter-lista">                                                 
                             <li>
-                                <a class="btn btn-primary huvud-button button-filter" href="#" role="button">RENSA FILTER</a>                                                                                   
+                                <input type="submit" name="login" value="RENSA FILTER" class="btn btn-primary huvud-button button-filter">
                             </li>                               
                         </ul>
                     </div>

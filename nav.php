@@ -84,17 +84,17 @@
                                 <div class="row LR">
                                     <div class="col-xs-6 LR">
                                         <h3>Logga in</h3>
-                                        <form role="form">
+                                        <form role="form" method="post">
                                             <div class="form-group">
-                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
                                             </div>
                                             <div class="form-group glomtlosen">
                                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Lösenord">
                                                 <a class="glomtlos" href="#">Glömt lösenord?</a>
                                             </div>
-                                            
+
                                             <div class="checkbox">
-                                                <a class="btn btn-primary huvud-button" href="#" role="button">Logga in</a>
+                                                <input type="submit" name="login" value="LOGGA IN" class="btn btn-primary huvud-button">
                                                 <label>
                                                     <input type="checkbox"> Kom ihåg mig
                                                 </label>
@@ -113,7 +113,7 @@
                                             <div class="form-group">
                                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Bekräfta Lösenord">
                                             </div>
-                                            <a class="btn btn-primary huvud-button" href="#" role="button">Regestrera dig</a>
+                                            <input type="submit" name="login" value="REGESTRERA DIG" class="btn btn-primary huvud-button">
                                         </form> 
                                     </div>
                                 </div>

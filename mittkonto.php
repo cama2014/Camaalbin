@@ -42,32 +42,8 @@
                     </div>
                 </div>
                 <div class="mittkonto-section-row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
-                        <div class="header-container">
-                            <div class="col-lg-12 RN-mittkonto">
-                                <div class="headline"><h3><span class="headline-center">KONTAKTINFORMATION</span></div></h3>
-                            </div>
-                        </div>
-                        <div class="kontinfo rutairuta">
-                            <table class="table table-info">
-                                <tr>
-                                    <td><p>Förnamn</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Efternamn</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>E-post</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Telefonnummer</p></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#">Ändra Kontaktinformation</a></td>
-                                </tr>
-                            </table>
-
-                            <div class="popup-mittkonto-kontinfo">
+                    
+                    <div class="popup-mittkonto-kontinfo">
                                 <div class="popup-ruta">
                                     <h3>PERSONLIGA DETALJER</h3>
                                     <table class="table">
@@ -94,6 +70,33 @@
                                     </table>                                     
                                 </div>
                             </div>
+                    
+                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">KONTAKTINFORMATION</span></div></h3>
+                            </div>
+                        </div>
+                        <div class="kontinfo rutairuta">
+                            <table class="table table-info">
+                                <tr>
+                                    <td><p>Förnamn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Efternamn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>E-post</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Telefonnummer</p></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Ändra Kontaktinformation</a></td>
+                                </tr>
+                            </table>
+
+                            
 
                         </div></div>
 
