@@ -213,20 +213,20 @@ ul.filter-lista li h3{
 
 /*byttsidasak*/
 
-.col-lg-12.byttsida ul{
+.col-lg-12.byttasida ul{
 
     float: right;
 
 }
 
-.col-lg-12.byttsida ul li{
+.col-lg-12.byttasida ul li{
 
     display: inline;
     padding: 5px;
 
 }
 
-.col-lg-12.byttsida ul li a{
+.col-lg-12.byttasida ul li a{
 
     color: #777;
     text-decoration: none;
@@ -235,26 +235,26 @@ ul.filter-lista li h3{
 
 /*test*/
 
-.col-lg-12.byttsida ul li.ruta2{
+.col-lg-12.byttasida ul li.ruta2{
 
     outline: solid thin whitesmoke;
 
 }
 
-.col-lg-12.byttsida a.nummer{
+.col-lg-12.byttasida a.nummer{
 
     color: #777;
     text-decoration: none;
 
 }
 
-.col-lg-12.byttsida ul li.ruta2-crossed{
+.col-lg-12.byttasida ul li.ruta2-crossed{
 
     outline: solid thin #BD0000;
 
 }
 
-.col-lg-12.byttsida a.nummer-crossed{
+.col-lg-12.byttasida a.nummer-crossed{
 
     color: #BD0000;
     text-decoration: none;

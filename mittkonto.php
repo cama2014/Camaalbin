@@ -34,43 +34,43 @@
 
         <!--section-->
 
-        <div class="container section-container">
-            <div class="row mittkonto-row">
+        <div class="container section-container">                       
+            <div class="row mittkonto-row">                
                 <div class="header-container">
                     <div class="col-lg-12 RN">
                         <div class="headline"><h3><span class="headline-center">MITT KONTO</span></div></h3>
                     </div>
                 </div>
                 <div class="mittkonto-section-row">
-                    
+
                     <div class="popup-mittkonto-kontinfo">
-                                <div class="popup-ruta">
-                                    <h3>PERSONLIGA DETALJER</h3>
-                                    <table class="table">
-                                        <tr>
-                                            <td><p>Förnamn</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>Efternamn</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>E-post</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-post"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>Telefonnummer</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><button class="btn btn-primary huvud-button tillbaka-button-kontinfo" type="submit">TILLBAKA</button></td>
-                                            <td><button class="btn btn-primary huvud-button andra-button-kontinfo" type="submit">ÄNDRA</button></td>
-                                        </tr>
-                                    </table>                                     
-                                </div>
-                            </div>
-                    
+                        <div class="popup-ruta">
+                            <h3>PERSONLIGA DETALJER</h3>
+                            <table class="table">
+                                <tr>
+                                    <td><p>Förnamn</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Efternamn</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>E-post</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-post"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Telefonnummer</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer"></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn btn-primary huvud-button tillbaka-button-kontinfo" type="submit">TILLBAKA</button></td>
+                                    <td><button class="btn btn-primary huvud-button andra-button-kontinfo" type="submit">ÄNDRA</button></td>
+                                </tr>
+                            </table>                                     
+                        </div>
+                    </div>
+
                     <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
                         <div class="header-container">
                             <div class="col-lg-12 RN-mittkonto">
@@ -96,7 +96,7 @@
                                 </tr>
                             </table>
 
-                            
+
 
                         </div></div>
 
@@ -172,9 +172,9 @@
                                 <div class="headline"><h3><span class="headline-center">LOGGA UT</span></div></h3>
                             </div>
                             <div class="loggaut rutairuta">
-                                
+
                                 <a class="btn btn-primary huvud-button loggaut-button" href="#" role="button">LOGGA UT</a>
-                                
+
                             </div>
                         </div>
                     </div>

@@ -9,23 +9,36 @@ $(document).ready(function() {
         $(this).children(".farg-typ").toggleClass("farg-typ-crossed");
 
     });
-});
-
-//bytta sida
-
-$(document).ready(function() {
+    
+    //bytta sida
+    
+    //sätt startvärden
+    $(".byttasida li:nth-of-type(2)").addClass("ruta2-crossed");
+    $(".byttasida li:nth-of-type(2) a").addClass("nummer-crossed");
+    
+    //klick för
     $(".nummer").click(function() {
         $(".ruta2").removeClass("ruta2-crossed");
         $(this).parent(".ruta2").toggleClass("ruta2-crossed");
         $(".nummer").removeClass("nummer-crossed");
         $(this).toggleClass("nummer-crossed");
     });
-});
+    
+    //pilar
+    
+    $(".glyphicon-chevron-left").click(function() {
+//        console.log($(".ruta2-crossed").index());
+        var rutIndex = $(".ruta2-crossed").index();
+        console.log("startvärde: "+rutIndex);
+        rutIndex+=2;
+        console.log("ökat: "+rutIndex);
+        $(".ruta2").removeClass("ruta2-crossed");
+        $(".byttasida li:nth-of-type("+rutIndex+")").addClass("ruta2-crossed");
+    });
+    
+    //popup fönster mitt konto
 
-//popup fönster mitt konto
-
-$(document).ready(function() {
-
+    //popup fönster kontoinfo
     $(".kontinfo a").click(function() {
         $(".popup-mittkonto-kontinfo").show();
     });
@@ -33,10 +46,7 @@ $(document).ready(function() {
     $(".tillbaka-button-kontinfo").click(function() {
         $(".popup-mittkonto-kontinfo").hide();
     });
-});
-
-$(document).ready(function() {
-
+    //popup fönster adressbok
     $(".adressbok a").click(function() {
         $(".popup-mittkonto-adressbok").show();
     });
@@ -44,4 +54,5 @@ $(document).ready(function() {
     $(".tillbaka-button-adressbok").click(function() {
         $(".popup-mittkonto-adressbok").hide();
     });
+    
 });

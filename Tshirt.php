@@ -252,7 +252,7 @@
                                 </div></a>
                         </div>
 
-                        <div class="col-lg-12 byttsida">
+                        <div class="col-lg-12 byttasida">
                             <ul>
                                 <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
                                 <li class="ruta2"><a href="#" class="nummer">1</a></li>
