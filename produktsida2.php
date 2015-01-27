@@ -82,6 +82,14 @@
                             <a id="btn" href="#size=large"><button type="button" class="btn btn-default size">L</button></a>
                            <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn-default size">XL</button></a>
                         </div>
+<!--                        <br>
+                        <br>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <a id="btn" href="#size=small"> <button class="btn btn btn-primary huvud-button-size">S</button></a>
+                              <a id="btn" href="#size=medium"> <button type="button" class="btn btn btn-primary huvud-button-size">M</button></a>
+                            <a id="btn" href="#size=large"><button type="button" class="btn btn btn-primary huvud-button-size">L</button></a>
+                           <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn btn-primary huvud-button-size">XL</button></a>
+                        </div>-->
                         
                         <h5>499 SEK</h5>
                         <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>

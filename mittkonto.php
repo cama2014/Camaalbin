@@ -29,21 +29,11 @@
     </head>
     <body>
 
-        <!--header-->    
-        <?php include 'nav.php'; ?>
-
-        <!--section-->
-
-        <div class="container section-container">                       
-            <div class="row mittkonto-row">                
-                <div class="header-container">
-                    <div class="col-lg-12 RN">
-                        <div class="headline"><h3><span class="headline-center">MITT KONTO</span></div></h3>
-                    </div>
-                </div>
-                <div class="mittkonto-section-row">
-
-                    <div class="popup-mittkonto-kontinfo">
+<!--popup fönster kontoinfo-->        
+        <div class="blur-popup-mittkonto-kontinfo">
+            <div class="container section-container">  
+                <div class="row mittkonto-row">
+                    <div class="col-lg-offset-4 col-lg-4 col-lg-offset-4 popup-mittkonto-kontinfo">
                         <div class="popup-ruta">
                             <h3>PERSONLIGA DETALJER</h3>
                             <table class="table">
@@ -65,71 +55,20 @@
                                 </tr>
                                 <tr>
                                     <td><button class="btn btn-primary huvud-button tillbaka-button-kontinfo" type="submit">TILLBAKA</button></td>
-                                    <td><button class="btn btn-primary huvud-button andra-button-kontinfo" type="submit">ÄNDRA</button></td>
+                                    <td><button class="btn btn-primary huvud-button andra-button-kontinfo" type="submit">SPARA</button></td>
                                 </tr>
                             </table>                                     
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
-                        <div class="header-container">
-                            <div class="col-lg-12 RN-mittkonto">
-                                <div class="headline"><h3><span class="headline-center">KONTAKTINFORMATION</span></div></h3>
-                            </div>
-                        </div>
-                        <div class="kontinfo rutairuta">
-                            <table class="table table-info">
-                                <tr>
-                                    <td><p>Förnamn</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Efternamn</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>E-post</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Telefonnummer</p></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#">Ändra Kontaktinformation</a></td>
-                                </tr>
-                            </table>
-
-
-
-                        </div></div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
-                        <div class="header-container">
-                            <div class="col-lg-12 RN-mittkonto">
-                                <div class="headline"><h3><span class="headline-center">ADRESSBOK</span></div></h3>
-                            </div>
-                        </div>
-                        <div class="adressbok rutairuta">
-                            <table class="table table-info">
-                                <tr>
-                                    <td><p>Namn</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Adress</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Ort</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Postnummer</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Land</p></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#">Ändra Kontaktinformation</a></td>
-                                </tr>
-                            </table>
-
-                            <div class="popup-mittkonto-adressbok">
-                                <div class="popup-ruta">
+                </div>
+            </div>
+        </div>
+<!--popup fönster adressbok-->
+        <div class="blur-popup-mittkonto-adressbok">
+            <div class="container section-container">  
+                <div class="row mittkonto-row">
+                    <div class="col-lg-offset-4 col-lg-4 col-lg-offset-4 popup-mittkonto-adressbok">
+                        <div class="popup-ruta">
                                     <h3>ÄNDRA ADRESSBOK</h3>
                                     <table class="table">
                                         <tr>
@@ -158,11 +97,87 @@
                                         </tr>
                                         <tr>
                                             <td><button class="btn btn-primary huvud-button tillbaka-button-adressbok" type="submit">TILLBAKA</button></td>
-                                            <td><button class="btn btn-primary huvud-button andra-button-adressbok" type="submit">ÄNDRA</button></td>
+                                            <td><button class="btn btn-primary huvud-button andra-button-adressbok" type="submit">SPARA</button></td>
                                         </tr>
                                     </table>                                     
                                 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--header-->    
+        <?php include 'nav.php'; ?>
+
+        <!--section-->
+
+
+
+        <div class="container section-container">                       
+            <div class="row mittkonto-row">                
+                <div class="header-container">
+                    <div class="col-lg-12 RN">
+                        <div class="headline"><h3><span class="headline-center">MITT KONTO</span></div></h3>
+                    </div>
+                </div>
+                <div class="mittkonto-section-row">
+
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">KONTAKTINFORMATION</span></div></h3>
                             </div>
+                        </div>
+                        <div class="kontinfo rutairuta">
+                            <table class="table table-info">
+                                <tr>
+                                    <td><p>Förnamn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Efternamn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>E-post</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Telefonnummer</p></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Ändra Kontaktinformation</a></td>
+                                </tr>
+                            </table>                           
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">ADRESSBOK</span></div></h3>
+                            </div>
+                        </div>
+                        <div class="adressbok rutairuta">
+                            <table class="table table-info">
+                                <tr>
+                                    <td><p>Namn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Adress</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Ort</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Postnummer</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Land</p></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Ändra Kontaktinformation</a></td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
 

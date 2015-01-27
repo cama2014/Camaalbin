@@ -6,10 +6,10 @@
 }
 
 .mittkonto-section-row{
-    
+
     margin-top: 50px;
     margin-bottom: 624px;
-    
+
 }
 
 .col-lg-4.mittkonto-rutor{
@@ -26,11 +26,11 @@
 }
 
 .rutairuta{
-    
-        outline: solid thin lightgray;
-        padding: 30px;
-        height: 500px;
-    
+
+    outline: solid thin lightgray;
+    padding: 30px;
+    height: 500px;
+
 }
 
 /*konto info lista*/
@@ -84,14 +84,31 @@
 
 /*popup fönster kontaktinfo*/
 
-.popup-mittkonto-kontinfo{
+.blur-popup-mittkonto-kontinfo{
 
-    background-color: whitesmoke;
-    outline: solid thin lightgray;
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+    background: rgb(245,245,245);
+    background: rgba(245,245,245,0.80);
     display:  none;
-    z-index: 10;
+    z-index: 100;
     position: absolute;
     margin: 0 auto;
+
+}
+
+.popup-mittkonto-kontinfo{
+
+    min-height: 1px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+    outline: solid thin lightgray;
 
 }
 
@@ -103,14 +120,31 @@
 
 /*popup fönster adressbok*/
 
+.blur-popup-mittkonto-adressbok{
+
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+    background: rgb(245,245,245);
+    background: rgba(245,245,245,0.80);
+    display:  none;
+    z-index: 100;
+    position: absolute;
+    margin: 0 auto;
+
+}
+
 .popup-mittkonto-adressbok{
 
+    min-height: 1px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     background-color: whitesmoke;
     outline: solid thin lightgray;
-    display:  none;
-    margin: 0 auto;
-    z-index: 10;
-    position: absolute;
 
 }
 
