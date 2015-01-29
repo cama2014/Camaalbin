@@ -15,6 +15,7 @@
         <link href="Tshirt.css" rel="stylesheet">
         <link href="produktsida2.css" rel="stylesheet">
         <link href="kassa.css" rel="stylesheet">
+        <link href="mittkonto.css" rel="stylesheet">
         <link href="footer.css" rel="stylesheet">
 
 
@@ -33,25 +34,105 @@
 
         <!--section-->
 
-        <div class="container section-container">
-            <div class="row">
-                <div class="kassa-row">
+        <div class="container section-container">                       
+            <div class="row kassa-row">                
+                <div class="header-container">
+                    <div class="col-lg-12 RN">
+                        <div class="headline"><h3><span class="headline-center">KASSA</span></div></h3>
+                    </div>
+                </div>
+                <div class="kassa-section-row">
 
                     <div class="col-lg-4 col-md-4 col-sm-4 kassa-rutor">
-                        <div class="headline-kassa"><h3><span class="headline-center">ADRESSUPPGIFTER</span></div></h3>
-                        <div class="adressupp"></div></div>
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">ADRESSUPPGIFTER</span></div></h3>
+                            </div>
+                        </div>
+                        <div class="adressuppgifter rutairuta">
+                            <table class="table table-info">
+                                <tr>
+                                    <td><p>Namn</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Adress</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Ort</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Postnummer</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Land</p></td>
+                                </tr>
+                            </table>                           
+                        </div>
+                    </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-4 kassa-rutor">
-                        <div class="headline-kassa"><h3><span class="headline-center">KORT INFO</span></div></h3>
-                        <div class="adressupp"></div></div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">KORT INFO</span></div></h3>
+                            </div>
+                        </div>
+                        <div class="kortinfo rutairuta">
+                            <table class="table table-info">
+                                <tr>
+                                <div class="kort">
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td>                                               
+                                                <img src="img/visa.jpg" width="80" height="40" class="img-responsive" alt="Responsive image">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td>                                               
+                                                <img src="img/mastercard.jpg" width="80" height="40" class="img-responsive" alt="Responsive image">
+                                            </td>
+                                        </tr>
+                                </div>
+                                <td>
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                </td>
+                                <td>
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                </td>
+                                <td>
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                </td>
+                                <td>
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                </td>
+                                <td>
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-4 kassa-rutor">
-                        <div class="headline-kassa"><h3><span class="headline-center">KUNDVAGNEN</span></div></h3>
-                        <div class="adressupp">
+                    <div class="col-lg-4 col-md-4 col-sm-4 mittkonto-rutor">
+                        <div class="header-container">
+                            <div class="col-lg-12 RN-mittkonto">
+                                <div class="headline"><h3><span class="headline-center">KUNDVAGNEN</span></div></h3>
+                            </div>
+                            <div class="kundvagn rutairuta">
 
-                            <a class="btn btn-primary huvud-button" href="#" role="button">Beställ</a>
 
-                        </div></div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

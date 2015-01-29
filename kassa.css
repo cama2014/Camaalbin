@@ -5,6 +5,13 @@
 
 }
 
+.kassa-section-row{
+
+    margin-top: 50px;
+    margin-bottom: 624px;
+
+}
+
 .col-lg-4.kassa-rutor{
 
     min-height: 1px;
@@ -18,39 +25,23 @@
 
 }
 
-.adressupp{
+.rutairuta{
 
     outline: solid thin lightgray;
-    height: 600px;
+    padding: 30px;
+    height: 500px;
 
 }
 
-/*test*/
-
-.headline-kassa {
-
-    text-align: center;
-    position: absolute;
-    top: 0px;
+.kort{
+    
+    background-color: pink;
     width: 100%;
-    height: 50px;
-    color: #BD0000;
-
+    
 }
 
-.headline-kassa span {
-
-    font-size: 20px;
-    line-height: 20px;
-    padding: 10px;
-    background: whitesmoke;
-    margin: 0 auto;
-
-}
-
-.headline-kassa h3{
-
-    margin: 0px;
-    font-size: 20px;
-
+.checkbox img{
+    
+    float: right;
+    
 }
