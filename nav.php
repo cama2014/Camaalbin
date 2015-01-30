@@ -16,7 +16,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="http://placehold.it/200x75/222/ffffff&text=CAMA" class="img-responsive" alt="Responsive image"></a>
+                    <a class="navbar-brand" href="index.php"><img src="img/logga.png" class="img-responsive" alt="Responsive image"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

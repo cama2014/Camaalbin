@@ -37,6 +37,18 @@ $(document).ready(function() {
         $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
 
     });
+    
+    $(".glyphicon-chevron-left").click(function() {
+        console.log($(".ruta2-crossed").index());
+        var rutIndex = $(".ruta2-crossed").index();
+        console.log("startvärde: " + rutIndex);
+        rutIndex -= 2;
+        console.log("ökat: " + rutIndex);
+        $(".ruta2").removeClass("ruta2-crossed");
+        $(".nummer").removeClass("nummer-crossed");
+        $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
+
+    });
 
     //popup fönster mitt konto
 

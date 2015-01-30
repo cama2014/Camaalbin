@@ -56,41 +56,45 @@
                         <p>Produkt beskrivning lorem ipsum lorem ipsum lorem ipsumlorem ipsum. 
                             Denna produkt kommer göra dig lycklig. Det är en väldigt fin produkt gjord av typ importerad från de egyptiska pyramiderna!</p>
                         <p>Art nr: 3458923792835</p>
-                        
-                        
+
+
                         <div id="farg">
-                                    <div class="well">
-                                        <ul>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: blue;"><p>Blå</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: brown;"><p>Brun</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: green;"><p>Grön</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: yellow;"><p>Gul</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: pink;"><p>Rosa</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: red;"><p>Röd</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: black;"><p>Svart</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: white;"><p>vit</p></span></a></li>                                          
-                                        </ul>
-                                    </div>
-                                </div> 
-                        
-                        
-                        
-                        
+                            <div class="well">
+                                <ul>
+                                    <li>
+                                        <a href="#"><span class="farg-typ" style="background-color: blue;"></span></a>
+                                        <a href="#"><span class="farg-typ" style="background-color: brown;"></span></a>
+                                        <a href="#"><span class="farg-typ" style="background-color: green;"></span></a>
+                                        <a href="#"><span class="farg-typ" style="background-color: yellow;"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="farg-typ" style="background-color: pink;"></span></a>
+                                        <a href="#"><span class="farg-typ" style="background-color: red;"></span></a>
+                                        <a href="#"><span class="farg-typ" style="background-color: black;"></span></a>
+                                        <a href="#"><span class="farg-typ" style="background-color: white;"></span></a>
+                                    </li>                                          
+                                </ul>
+                            </div>
+                        </div> 
+
+
+
+
                         <div class="btn-group" role="group" aria-label="...">
                             <a id="btn" href="#size=small"> <button type="button" class="btn btn-default size">S</button></a>
-                              <a id="btn" href="#size=medium"> <button type="button" class="btn btn-default size">M</button></a>
+                            <a id="btn" href="#size=medium"> <button type="button" class="btn btn-default size">M</button></a>
                             <a id="btn" href="#size=large"><button type="button" class="btn btn-default size">L</button></a>
-                           <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn-default size">XL</button></a>
+                            <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn-default size">XL</button></a>
                         </div>
-<!--                        <br>
-                        <br>
-                        <div class="btn-group" role="group" aria-label="...">
-                            <a id="btn" href="#size=small"> <button class="btn btn btn-primary huvud-button-size">S</button></a>
-                              <a id="btn" href="#size=medium"> <button type="button" class="btn btn btn-primary huvud-button-size">M</button></a>
-                            <a id="btn" href="#size=large"><button type="button" class="btn btn btn-primary huvud-button-size">L</button></a>
-                           <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn btn-primary huvud-button-size">XL</button></a>
-                        </div>-->
-                        
+                        <!--                        <br>
+                                                <br>
+                                                <div class="btn-group" role="group" aria-label="...">
+                                                    <a id="btn" href="#size=small"> <button class="btn btn btn-primary huvud-button-size">S</button></a>
+                                                      <a id="btn" href="#size=medium"> <button type="button" class="btn btn btn-primary huvud-button-size">M</button></a>
+                                                    <a id="btn" href="#size=large"><button type="button" class="btn btn btn-primary huvud-button-size">L</button></a>
+                                                   <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn btn-primary huvud-button-size">XL</button></a>
+                                                </div>-->
+
                         <h5>499 SEK</h5>
                         <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>
                     </div>
