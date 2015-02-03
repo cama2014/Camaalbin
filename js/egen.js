@@ -32,23 +32,30 @@ $(document).ready(function() {
         console.log("startvärde: " + rutIndex);
         rutIndex += 2;
         console.log("ökat: " + rutIndex);
-        $(".ruta2").removeClass("ruta2-crossed");
-        $(".nummer").removeClass("nummer-crossed");
-        $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
+        if (rutIndex < 6) {
 
+            $(".ruta2").removeClass("ruta2-crossed");
+            $(".nummer").removeClass("nummer-crossed");
+            $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
+            $(".byttasida li:nth-of-type(" + rutIndex + ") a").addClass("nummer-crossed");
+        }
     });
-    
+
     $(".glyphicon-chevron-left").click(function() {
         console.log($(".ruta2-crossed").index());
         var rutIndex = $(".ruta2-crossed").index();
         console.log("startvärde: " + rutIndex);
-        rutIndex -= 2;
-        console.log("ökat: " + rutIndex);
-        $(".ruta2").removeClass("ruta2-crossed");
-        $(".nummer").removeClass("nummer-crossed");
-        $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
+        rutIndex -= 0;
+        console.log("minskat: " + rutIndex);
+        if (rutIndex > 1) {
 
+            $(".ruta2").removeClass("ruta2-crossed");
+            $(".nummer").removeClass("nummer-crossed");
+            $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
+            $(".byttasida li:nth-of-type(" + rutIndex + ") a").addClass("nummer-crossed");
+        }
     });
+
 
     //popup fönster mitt konto
 

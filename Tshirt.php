@@ -126,7 +126,7 @@
                                 </div></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                            <a href="#"><div class="beskrivnig">
+                            <a href="mittkonto.php"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>
@@ -134,7 +134,7 @@
                                 </div></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
-                            <a href="#"><div class="beskrivnig">
+                            <a href="kassa.php"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
                                     <h3>Skank</h3>                               
                                     <br>

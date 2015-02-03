@@ -96,7 +96,7 @@
     width: 100%;
     padding: 100px;
     background: rgb(211,211,211);
-    background: rgba(211,211,211,0.85);
+    background: rgba(211,211,211,0.50);
     display:  none;
     z-index: 100;
     position: absolute;
@@ -132,7 +132,7 @@
     width: 100%;
     padding: 100px;
     background: rgb(211,211,211);
-    background: rgba(211,211,211,0.85);
+    background: rgba(211,211,211,0.50);
     display:  none;
     z-index: 100;
     position: absolute;
