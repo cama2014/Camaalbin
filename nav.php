@@ -16,7 +16,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="img/logga.png" class="img-responsive" alt="Responsive image"></a>
+                    <a class="navbar-brand" href="index.php"><img src="img/Logga.png" class="img-responsive" alt="Responsive image"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -79,7 +79,7 @@
                     </form>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">LOGGA IN</a>
+                            <a href="#" class="dropdown-toggle loggain-button-dropdown" data-toggle="dropdown" role="button" aria-expanded="false">LOGGA IN</a>
                             <ul class="dropdown-menu" role="menu">
                                 <div class="row LR">
                                     <div class="col-xs-6 LR">
@@ -94,7 +94,7 @@
                                             </div>
 
                                             <div class="checkbox">
-                                                <input type="submit" name="login" value="LOGGA IN" class="btn btn-primary huvud-button">
+                                                <a class="btn btn-primary huvud-button loggain-button" href="mittkonto.php" role="button">LOGGA IN</a>
                                                 <label>
                                                     <input type="checkbox"> Kom ihåg mig
                                                 </label>
@@ -113,7 +113,7 @@
                                             <div class="form-group">
                                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Bekräfta Lösenord">
                                             </div>
-                                            <input type="submit" name="login" value="REGESTRERA DIG" class="btn btn-primary huvud-button">
+                                            <a class="btn btn-primary huvud-button regestrera-button" href="#" role="button">REGESTRERA DIG</a>
                                         </form> 
                                     </div>
                                 </div>

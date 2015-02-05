@@ -188,7 +188,7 @@
                             </div>
                             <div class="loggaut rutairuta">
 
-                                <a class="btn btn-primary huvud-button loggaut-button" href="#" role="button">LOGGA UT</a>
+                                <a class="btn btn-primary huvud-button loggaut-button" href="index.php" role="button">LOGGA UT</a>
 
                             </div>
                         </div>
