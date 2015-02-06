@@ -77,48 +77,59 @@
                             </div>
                         </div>
                         <div class="kortinfo rutairuta">
-                            <table class="table table-info">
-                                <tr>
-                                <div class="kort">
-                                        <tr>
-                                            <td>
-                                                <input type="checkbox">
-                                            </td>
-                                            <td>                                               
-                                                <img src="img/visa.jpg" width="80" height="40" class="img-responsive" alt="Responsive image">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <input type="checkbox">
-                                            </td>
-                                            <td>                                               
-                                                <img src="img/mastercard.jpg" width="80" height="40" class="img-responsive" alt="Responsive image">
-                                            </td>
-                                        </tr>
-                                </div>
-                                <td>
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </td>
-                                <td>
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </td>
-                                <td>
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </td>
-                                <td>
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </td>
-                                <td>
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </td>
-                                </tr>
-                            </table>
+                            <div class="kortinfo-ruta">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox">
+                                        <img src="img/visa.jpg" width="80" height="40" class="img-responsive" alt="Responsive image">
+                                    </li>                                    
+                                    <li>
+                                        <input type="checkbox">
+                                        <img src="img/mastercard.jpg" width="80" height="40" class="img-responsive" alt="Responsive image">
+                                    </li>
+                                    <li>
+                                        <label for="exampleInputEmail1">Kortnummer</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Kortnummer">
+                                    </li>
+                                    <li>
+                                        <label for="exampleInputEmail1">cvc kod</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="cvc kod">
+                                    </li>
+                                    <li>
+                                        <p>Utgångsdatum</p>
+                                        <select>
+                                            <option>-</option>
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                            <option>06</option>
+                                            <option>07</option>
+                                            <option>08</option>
+                                            <option>09</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+
+                                        </select>
+                                        <select>
+                                            <option>-</option>
+                                            <option>2015</option>
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                            <option>2018</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                            <option>2025</option>
+                                        </select>
+                                    </li>                                
+                                </ul>
+                            </div>
                         </div>
                     </div>
 

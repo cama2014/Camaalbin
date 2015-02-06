@@ -5,7 +5,9 @@
     <div class="container header-container">
 
         <!--nav-->
-
+        <?php
+        include 'LoginPHP.php';
+        ?>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -89,12 +91,13 @@
                                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
                                             </div>
                                             <div class="form-group glomtlosen">
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Lösenord">
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Lösenord" name="password">
                                                 <a class="glomtlos" href="#">Glömt lösenord?</a>
                                             </div>
 
                                             <div class="checkbox">
-                                                <a class="btn btn-primary huvud-button loggain-button" href="mittkonto.php" role="button">LOGGA IN</a>
+                                                <!--<a class="btn btn-primary huvud-button loggain-button" href="#" role="button">LOGGA IN</a>-->
+                                                <input type="submit" class="btn btn-primary huvud-button loggain-button" name="action" value="login">
                                                 <label>
                                                     <input type="checkbox"> Kom ihåg mig
                                                 </label>
@@ -113,7 +116,8 @@
                                             <div class="form-group">
                                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Bekräfta Lösenord">
                                             </div>
-                                            <a class="btn btn-primary huvud-button regestrera-button" href="#" role="button">REGESTRERA DIG</a>
+                                            <input type="submit" class="btn btn-primary huvud-button loggain-button" name="action" value="reg">
+                                            <!--<a class="btn btn-primary huvud-button regestrera-button" href="#" role="button">REGESTRERA DIG</a>-->
                                         </form> 
                                     </div>
                                 </div>

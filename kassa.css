@@ -33,15 +33,23 @@
 
 }
 
-.kort{
+.kortinfo-ruta{
     
-    background-color: pink;
-    width: 100%;
+    float: left;
+}
+
+.kortinfo-ruta ul li{
+    
+    list-style-type: none;
+    float: left;
+    margin-top: 20px;
     
 }
 
-.checkbox img{
+.kortinfo-ruta ul li img{
     
     float: right;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
