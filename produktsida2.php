@@ -55,6 +55,8 @@
                         <h5>Info</h5>
                         <p>Produkt beskrivning lorem ipsum lorem ipsum lorem ipsumlorem ipsum. 
                             Denna produkt kommer göra dig lycklig. Det är en väldigt fin produkt gjord av typ importerad från de egyptiska pyramiderna!</p>
+                        <p>Material:110% Bomull.</p>
+                        <p>Modellen är fett biff, 185cm och är fotad i storleken M.</p>
                         <p>Art nr: 3458923792835</p>
 
 
@@ -82,9 +84,23 @@
                         <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>
                     </div>
                 </div>
+                
+                
+                <div class="col-lg-12">
+            <div class="headline-container">
+                <div class="col-lg-12 RN ">
+                    <div class="headline"><h3><span class="headline-center">STORLEKSGUIDE</span></div></h3>
+                </div>
             </div>
+            
+            <div class="test"></div>
+            </div>
+                
+            </div> 
+            
         </div>  
 
+         
         <!--footer-->
         <?php include 'footer.php'; ?>
 

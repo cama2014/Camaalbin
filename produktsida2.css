@@ -27,6 +27,7 @@
     margin-top:20px;
     margin-bottom:40px;
     padding-left:0px;
+    background-color: greenyellow;
 
 }
 .col-lg-6.section img{
@@ -45,6 +46,7 @@ h4,h5{
 .col-lg-6.sectiontwo{
 
     padding-left: 40px;
+    background-color: rosybrown;
 
 }
 
@@ -101,4 +103,19 @@ h5{
     border-radius: 0px;
     text-align: center;
 
+}
+
+keygen, select, select[size="0"], select[size="1"] {
+border-radius: 0px;
+border-color: #222;
+}
+
+
+.test{
+    
+    width: 1170px;
+    height: 400px;
+    background-color: pink;
+    margin-top: 50px;
+    padding-left: 0px;
 }
