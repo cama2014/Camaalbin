@@ -93,7 +93,11 @@
                 </div>
             </div>
             
-            <div class="test"></div>
+                    <div class="test">
+                        
+                        <img src="img/Tshirt_guide.png" class="img-responsive" alt="Responsive image">
+                        
+                    </div>
             </div>
                 
             </div> 
