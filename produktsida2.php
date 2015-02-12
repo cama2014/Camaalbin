@@ -88,7 +88,7 @@
                 
                 <div class="col-lg-12">
             <div class="headline-container">
-                <div class="col-lg-12 RN ">
+                <div class="col-lg-12 RN storlek ">
                     <div class="headline"><h3><span class="headline-center">STORLEKSGUIDE</span></div></h3>
                 </div>
             </div>

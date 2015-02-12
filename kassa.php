@@ -127,7 +127,10 @@
                                             <option>2024</option>
                                             <option>2025</option>
                                         </select>
-                                    </li>                                
+                                    </li>
+                                    <li>
+                                        <button class="btn btn-primary huvud-button" type="submit">BETALA</button>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
