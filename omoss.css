@@ -11,9 +11,10 @@
 
     margin-top: 10px;
     margin-bottom: 50px;
-    outline: solid thin lightgray;
+
 
 }
+
 
 .col-lg-12.omoss-del h3{
 
@@ -24,7 +25,7 @@
 /*andra delen*/
 
 .profil-b{
-    
+
     width: auto;
     height: auto;
     background-color: whitesmoke;
@@ -42,8 +43,8 @@
 }
 
 .img-responsive.profil-bild{
-    
+
     display: inline;
     margin: 10px;
-    
+
 }

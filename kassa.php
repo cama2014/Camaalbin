@@ -52,19 +52,19 @@
                         <div class="adressuppgifter rutairuta">
                             <table class="table table-info">
                                 <tr>
-                                    <td><p>Namn</p></td>
+                                    <td><p>Namn:</p></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Adress</p></td>
+                                    <td><p>Adress:</p></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Ort</p></td>
+                                    <td><p>Ort:</p></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Postnummer</p></td>
+                                    <td><p>Postnummer:</p></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Land</p></td>
+                                    <td><p>Land:</p></td>
                                 </tr>
                             </table>                           
                         </div>
@@ -95,6 +95,8 @@
                                         <label for="exampleInputEmail1">cvc kod</label>
                                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="cvc kod">
                                     </li>
+                                    
+                                    
                                     <li>
                                         <p>Utgångsdatum</p>
                                         <select>
@@ -127,10 +129,13 @@
                                             <option>2024</option>
                                             <option>2025</option>
                                         </select>
+                                    
+                                        
+                                        
                                     </li>
-                                    <li>
-                                        <button class="btn btn-primary huvud-button" type="submit">BETALA</button>
-                                    </li>
+                                    
+                                    <button class="btn btn-primary huvud-button betala" type="submit">BETALA</button>
+                                    
                                 </ul>
                             </div>
                         </div>

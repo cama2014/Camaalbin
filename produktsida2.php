@@ -62,7 +62,7 @@
 
                                                
 
-                        <select>
+                        <select class="antal">
                             <option>1 st</option>
                             <option>2 st</option>
                             <option>3 st</option>

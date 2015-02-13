@@ -60,7 +60,7 @@
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
 
-                        <div class="col-lg-12 omoss-del">
+                        <div class="col-lg-12 omoss-del del2">
 
                             <h3>Grundare och skapare av CAMA</h3>
 

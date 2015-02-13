@@ -49,14 +49,14 @@ h4,h5{
 }
 
 h5{
-
+    margin-top:20px;
     color:#BD0000;
 
 }
 
 .btn-primary.huvud-button.button-köp{
 
-    margin-top:10px;
+  
 
 }
 
@@ -113,10 +113,14 @@ h5{
 
 }
 
-keygen, select, select[size="0"], select[size="1"] {
+keygen, select, select[size="0"], select[size="1"]{
 border-radius: 0px;
 border-color: #222;
 background-color: whitesmoke;
+}
+
+.antal{
+    margin-top:30px;
 }
 
 
