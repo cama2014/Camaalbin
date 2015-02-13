@@ -7,7 +7,6 @@
         <!--nav-->
         <?php
         include 'LoginPHP.php';
-         include 'regPHP.php';
 //        ?>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
@@ -81,49 +80,8 @@
                         </div>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle loggain-button-dropdown" data-toggle="dropdown" role="button" aria-expanded="false">LOGGA IN</a>
-                            <ul class="dropdown-menu" role="menu">
-                                <div class="row LR">
-                                    <div class="col-xs-6 LR">
-                                        <h3>Logga in</h3>
-                                        <form role="form" method="post">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
-                                            </div>
-                                            <div class="form-group glomtlosen">
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Lösenord" name="password">
-                                                <a class="glomtlos" href="#">Glömt lösenord?</a>
-                                            </div>
-
-                                            <div class="checkbox">
-                                                <input type="submit" class="btn btn-primary huvud-button loggain-button" name="action" value="LOGGA IN">
-                                                <label>
-                                                    <input type="checkbox"> Kom ihåg mig
-                                                </label>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="col-xs-6 LR">
-                                        <h3>Registrera</h3>
-                                        <?php
-                                       
-                                        ?>
-                                        <form role="form" method="post">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="regemail">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Lösenord" name="regpass">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Bekräfta Lösenord">
-                                            </div>
-                                            <input type="submit" class="btn btn-primary huvud-button loggain-button" name="action" value="REGISTRERA DIG">
-                                        </form> 
-                                    </div>
-                                </div>
-                            </ul>
+                        <li>             
+                            <a href="mittkonto.php" class="dropdown-toggle loggain-button-dropdown" data-toggle="dropdown" role="button" aria-expanded="false">MITT KONTO</a>                          
                         </li>
                         <li><a href="omoss.php">OM OSS</a></li>
 

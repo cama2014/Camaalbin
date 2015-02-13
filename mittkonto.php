@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-
+<?php
+include 'kill.php';
+include 'nav2.php';
+?>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -29,7 +32,7 @@
     </head>
     <body>
 
-<!--popup fönster kontoinfo-->        
+        <!--popup fönster kontoinfo-->        
         <div class="blur-popup-mittkonto-kontinfo">
             <div class="container section-container">  
                 <div class="row mittkonto-row">
@@ -63,51 +66,51 @@
                 </div>
             </div>
         </div>
-<!--popup fönster adressbok-->
+        <!--popup fönster adressbok-->
         <div class="blur-popup-mittkonto-adressbok">
             <div class="container section-container">  
                 <div class="row mittkonto-row">
                     <div class="col-lg-offset-4 col-lg-4 col-lg-offset-4 popup-mittkonto-adressbok">
                         <div class="popup-ruta">
-                                    <h3>ÄNDRA ADRESSBOK</h3>
-                                    <table class="table">
-                                        <tr>
-                                            <td><p>Förnamn</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>Efternamn</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>Adress</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adress"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>Ort</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ort"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>Postnummer</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Postnummer"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>Land</p></td>
-                                            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Land"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><button class="btn btn-primary huvud-button tillbaka-button-adressbok" type="submit">TILLBAKA</button></td>
-                                            <td><button class="btn btn-primary huvud-button andra-button-adressbok" type="submit">SPARA</button></td>
-                                        </tr>
-                                    </table>                                     
-                                </div>
+                            <h3>ÄNDRA ADRESSBOK</h3>
+                            <table class="table">
+                                <tr>
+                                    <td><p>Förnamn</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Efternamn</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Adress</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adress"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Ort</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ort"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Postnummer</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Postnummer"></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Land</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Land"></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn btn-primary huvud-button tillbaka-button-adressbok" type="submit">TILLBAKA</button></td>
+                                    <td><button class="btn btn-primary huvud-button andra-button-adressbok" type="submit">SPARA</button></td>
+                                </tr>
+                            </table>                                     
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <!--header-->    
-        <?php include 'nav.php'; ?>
+
 
         <!--section-->
 
@@ -188,7 +191,7 @@
                             </div>
                             <div class="loggaut rutairuta">
 
-                                <a class="btn btn-primary huvud-button loggaut-button" href="index.php" role="button">LOGGA UT</a>
+                                <input type="submit" class="btn btn-primary huvud-button loggaut-button" name="action" value="LOGGA UT">
 
                             </div>
                         </div>

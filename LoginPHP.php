@@ -10,14 +10,14 @@ $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8
 
 
 if ($_SESSION["user"] != null) {
-    echo 'Du är inloggad. ';
+//    echo 'Du är inloggad. ';
 } else {
     $_SESSION["user"] = null;
 }
 if (isset($_POST["action"])) {
     
-if ($_POST["action"] == "login") {
-    echo 'Hej';
+if ($_POST["action"] == "LOGGA IN") {
+   
 //        var_dump($_POST);
         $email = $_POST["email"];
         $password = $_POST["password"];
@@ -32,12 +32,14 @@ if ($_POST["action"] == "login") {
         $stmt->execute();
         $result = $stmt->fetch();
 //        var_dump($result);
+        
 
 
 
        if ($result != null) {
-           echo 'Du loggades in!';
-          $_SESSION["user"] = $_POST["username"];
+//           echo 'Du loggades in!';
+           header("location:mittkonto.php");
+          $_SESSION["user"] = $_POST["email"];
      } else {
          echo 'inlogg misslyckad';
        }
