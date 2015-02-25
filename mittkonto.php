@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php
+
+include 'nav.php';
 include 'kill.php';
-include 'nav2.php';
 ?>
 <html lang="en">
     <head>
@@ -190,8 +191,10 @@ include 'nav2.php';
                                 <div class="headline"><h3><span class="headline-center">LOGGA UT</span></div></h3>
                             </div>
                             <div class="loggaut rutairuta">
+                                <form method="post">
 
-                                <input type="submit" class="btn btn-primary huvud-button loggaut-button" name="action" value="LOGGA UT">
+                                <input  type="submit" class="btn btn-primary huvud-button loggaut-button" name="action" value="LOGGA UT">
+                                </form>
 
                             </div>
                         </div>

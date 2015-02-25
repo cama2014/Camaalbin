@@ -7,8 +7,9 @@
         <!--nav-->
         <?php
         include 'LoginPHP.php';
-         include 'regPHP.php';
-//        ?>
+        include 'regPHP.php';
+//        
+        ?>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -82,7 +83,14 @@
                     </form>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle loggain-button-dropdown" data-toggle="dropdown" role="button" aria-expanded="false">LOGGA IN</a>
+                            <?php
+                            if ($_SESSION["user"] != null) {
+                                echo '<a href="mittkonto.php">MITT KONTO</a>';
+                            }else{
+                                echo '<a href="#" class="dropdown-toggle loggain-button-dropdown" data-toggle="dropdown" role="button" aria-expanded="false">LOGGA IN</a>';
+                            }
+                            ?>
+                            <!--<a href="#" class="dropdown-toggle loggain-button-dropdown" data-toggle="dropdown" role="button" aria-expanded="false">LOGGA IN</a>-->
                             <ul class="dropdown-menu" role="menu">
                                 <div class="row LR">
                                     <div class="col-xs-6 LR">
@@ -106,9 +114,7 @@
                                     </div>
                                     <div class="col-xs-6 LR">
                                         <h3>Registrera</h3>
-                                        <?php
-                                       
-                                        ?>
+                                        <?php ?>
                                         <form role="form" method="post">
                                             <div class="form-group">
                                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="regemail">
