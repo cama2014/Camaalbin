@@ -1,8 +1,14 @@
+<?php
+
+
+//include 'kill.php';
+?>
+
 <!DOCTYPE html>
 <?php
 
 include 'nav.php';
-include 'kill.php';
+
 ?>
 <html lang="en">
     <head>
@@ -192,8 +198,9 @@ include 'kill.php';
                             </div>
                             <div class="loggaut rutairuta">
                                 <form method="post">
-
-                                <input  type="submit" class="btn btn-primary huvud-button loggaut-button" name="action" value="LOGGA UT">
+<!--                                    <a href="kill.php">kill</a>-->
+                                    <a href="kill.php" class="btn btn-primary huvud-button loggaut-button" role="button" aria-expanded="false">LOGGA UT</a>
+                                <!--<input  type="submit" class="btn btn-primary huvud-button loggaut-button" name="action" value="LOGGA UT">-->
                                 </form>
 
                             </div>

@@ -60,17 +60,17 @@
                         <p>Art nr: 3458923792835</p>
 
 
-                                               
+
 
                         <select class="antal">
                             <option>1 st</option>
                             <option>2 st</option>
                             <option>3 st</option>
-                            
+
                         </select>
 
 
-                        
+
                         <br>
                         <br>
                         <div class="btn-group" role="group" aria-label="...">
@@ -81,30 +81,34 @@
                         </div>
 
                         <h5>499 SEK</h5>
-                        <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>
+                        <!--                        <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>-->
+                        <form method="post">
+                        <input type="submit" name="action" value="Add">
+                        </form>
+
                     </div>
                 </div>
-                
-                
+
+
                 <div class="col-lg-12">
-            <div class="headline-container">
-                <div class="col-lg-12 RN storlek ">
-                    <div class="headline"><h3><span class="headline-center">STORLEKSGUIDE</span></div></h3>
-                </div>
-            </div>
-            
-                    <div class="test">
-                        
-                        <img src="img/Tshirt_guide.png" class="img-responsive" alt="Responsive image">
-                        
+                    <div class="headline-container">
+                        <div class="col-lg-12 RN storlek ">
+                            <div class="headline"><h3><span class="headline-center">STORLEKSGUIDE</span></div></h3>
+                        </div>
                     </div>
-            </div>
-                
+
+                    <div class="test">
+
+                        <img src="img/Tshirt_guide.png" class="img-responsive" alt="Responsive image">
+
+                    </div>
+                </div>
+
             </div> 
-            
+
         </div>  
 
-         
+
         <!--footer-->
         <?php include 'footer.php'; ?>
 

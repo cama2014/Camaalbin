@@ -30,21 +30,27 @@
                             <ul class="dropdown-menu" role="menu">
                                 <div class="row kt">
                                     <div class="col-xs-4 kt">
+                                        <form method="get">
                                         <li><h3>Överdelar</h3></li>
-                                        <li><a href="Tshirt.php">T-shirt</a></li>
-                                        <li><a href="#">Tröjor</a></li>
-                                        <li><a href="#">Skjortor</a></li>
-                                        <li><a href="#">Jackor</a></li>
+                                        <li><a href="Tshirt.php?plagg=tshirt&gender=kille">T-shirt</a></li>
+                                        <li><a href="Tshirt.php?plagg=tröja&gender=kille">Tröjor</a></li>
+                                        <li><a href="Tshirt.php?plagg=skjorta&gender=kille">Skjortor</a></li>
+                                        <li><a href="Tshirt.php?plagg=jacka&gender=kille">Jackor</a></li>
+                                        </form>
                                     </div>
                                     <div class="col-xs-4 kt">
+                                        <form method="get">
                                         <li><h3>Underdelar</h3></li>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li><a href="#">Chinos</a></li>
+                                        <li><a href="Tshirt.php?plagg=jeans&gender=kille">Jeans</a></li>
+                                        <li><a href="Tshirt.php?plagg=chinos&gender=kille">Chinos</a></li>
+                                        </form>
                                     </div>
                                     <div class="col-xs-4 kt">
+                                        <form method="get">
                                         <li><h3>Accessoarer</h3></li>
-                                        <li><a href="#">Mösssor</a></li>
-                                        <li><a href="#">Kepsar</a></li>
+                                        <li><a href="Tshirt.php?plagg=mössa&gender=kille">Mösssor</a></li>
+                                        <li><a href="Tshirt.php?plagg=keps&gender=kille">Kepsar</a></li>
+                                        </form>
                                     </div>
                                 </div>
                             </ul>
@@ -54,21 +60,27 @@
                             <ul class="dropdown-menu" role="menu">
                                 <div class="row kt">
                                     <div class="col-xs-4 kt">
+                                        <form method="get">
                                         <li><h3>Överdelar</h3></li>
-                                        <li><a href="#">T-shirt</a></li>
-                                        <li><a href="#">Tröjor</a></li>
-                                        <li><a href="#">Skjortor</a></li>
-                                        <li><a href="#">Jackor</a></li>
+                                        <li><a href="Tshirt.php?plagg=tshirt&gender=tjej">T-shirt</a></li>
+                                        <li><a href="Tshirt.php?plagg=tröja&gender=tjej">Tröjor</a></li>
+                                        <li><a href="Tshirt.php?plagg=skjorta&gender=tjej">Skjortor</a></li>
+                                        <li><a href="Tshirt.php?plagg=jacka&gender=tjej">Jackor</a></li>
+                                        </form>
                                     </div>
                                     <div class="col-xs-4 kt">
+                                        <form method="get">
                                         <li><h3>Underdelar</h3></li>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li><a href="#">Chinos</a></li>
+                                        <li><a href="Tshirt.php?plagg=tshirt&gender=tjej">Jeans</a></li>
+                                        <li><a href="Tshirt.php?plagg=chinos&gender=tjej">Chinos</a></li>
+                                        </form>
                                     </div>
                                     <div class="col-xs-4 kt">
+                                        <form method="get">
                                         <li><h3>Accessoarer</h3></li>
-                                        <li><a href="#">Mösssor</a></li>
-                                        <li><a href="#">Kepsar</a></li>
+                                        <li><a href="Tshirt.php?plagg=mössa&gender=tjej">Mösssor</a></li>
+                                        <li><a href="Tshirt.php?plagg=keps&gender=tjej">Kepsar</a></li>
+                                        </form>
                                     </div>
                                 </div>
                             </ul>
@@ -84,8 +96,12 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <?php
+                            if(isset($_SESSION["user"])){
                             if ($_SESSION["user"] != null) {
                                 echo '<a href="mittkonto.php">MITT KONTO</a>';
+                            }else{
+                                echo '<a href="#" class="dropdown-toggle loggain-button-dropdown" data-toggle="dropdown" role="button" aria-expanded="false">LOGGA IN</a>';
+                            }
                             }else{
                                 echo '<a href="#" class="dropdown-toggle loggain-button-dropdown" data-toggle="dropdown" role="button" aria-expanded="false">LOGGA IN</a>';
                             }

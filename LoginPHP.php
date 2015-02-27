@@ -8,12 +8,12 @@ $result = null;
 
 $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8', DB_EMAIL, DB_PASSWORD);
 
-
+if(isset($_SESSION["user"])){
 if ($_SESSION["user"] != null) {
 //    echo 'Du är inloggad. ';
 } else {
     $_SESSION["user"] = null;
-
+}
 
     
 }

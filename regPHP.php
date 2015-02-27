@@ -1,6 +1,7 @@
 <?php
+
 if (isset($_POST["action"])) {
-      //Registrering
+    //Registrering
 
     if ($_POST["action"] == "REGISTRERA DIG") {
 
@@ -13,9 +14,22 @@ if (isset($_POST["action"])) {
         $stmt = $dbh->prepare($sql);
         $stmt->bindParam(":password", $regpassword);
         $stmt->bindParam(":email", $regemail);
-        $stmt->execute();
-        header("location:mittkonto.php");
+        $success = $stmt->execute();
+//        echo "succes: ".$success;
+        
+
+        
+        
+        
+
+        if ($success == 1) {
+            $_SESSION["user"] = $_POST["regemail"];
+            header("location:mittkonto.php");
+        }else{
+            echo "mailen redan registrerad.";
+        }
+            
+        }
     }
-}
-?>
+    ?>
 
