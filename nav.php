@@ -8,7 +8,8 @@
         <?php
         include 'LoginPHP.php';
         include 'regPHP.php';
-//        
+//        include 'Filtrering.php';
+        
         ?>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
@@ -153,6 +154,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <div class="tomkundvagn">
+                                    <?php include 'Kundvagn.php';?>
                                     <p>Kundvagnen är tom<p>
                                 </div>                                       
                             </ul>
