@@ -116,7 +116,7 @@
                             <div class="col-lg-12 RN">
                                 <div class="headline"><h3><span class="headline-center">T-SHIRTS</span></div></h3>
                             </div>
-                        </div>
+                        </div>                       
                         <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
                             <a href="produktsida2.php"><div class="beskrivnig">
                                     <img src="img/tshirtbildtest.jpg" width="350" height="450" class="img-responsive" alt="Responsive image">
@@ -251,7 +251,7 @@
                                     <span class="price">499 SEK</span>
                                 </div></a>
                         </div>
-
+                        </div>
                         <div class="col-lg-12 byttasida">
                             <ul>
                                 <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
