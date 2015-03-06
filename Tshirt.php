@@ -29,8 +29,30 @@
     <body>
 
         <!--header-->    
-        <?php include 'nav.php'; ?>
+        <?php
+        include 'nav.php';
         
+        if(isset($_GET["gender"])){
+            echo "<input id='gender' type='hidden' value='" . $_GET["gender"] . "'>";
+        }
+        if(isset($_GET["plagg"])){
+            echo "<input id='plagg' type='hidden' value='" . $_GET["plagg"] . "'>";
+        }
+        if(isset($_GET["marke"])){
+            echo "<input id='marke' type='hidden' value='" . $_GET["marke"] . "'>";
+        }
+        
+        
+        
+        
+        if(isset($_GET["pris"])){
+            echo "<input id='pris' type='hidden' value='" . $_GET["pris"] . "'>";
+        }
+        if(isset($_GET["namn"])){
+            echo "<input id='namn' type='hidden' value='" . $_GET["namn"] . "'>";
+        }
+        ?>
+
         <!--section-->
 
         <div class="container section-container">
@@ -38,7 +60,7 @@
                 <div class="col-lg-2 filterdel">
                     <div class="filter">
                         <ul class="filter-lista">
-                            <li><h3>KILLE</h3></li>
+                            <li><h3 id="h3_kon"></h3></li>
                             <li>
                                 <a class="btn btn-primary" data-toggle="collapse" href="#marke" aria-expanded="false" aria-controls="marke">
                                     MÄRKE
@@ -114,43 +136,43 @@
                     <div class="row fyrabox-row">
                         <div class="headline-container">
                             <div class="col-lg-12 RN">
-                                <div class="headline"><h3><span class="headline-center">T-SHIRTS</span></div></h3>
+                                <div class="headline"><h3><span id='h3_plagg' class="headline-center"></span></div></h3>
                             </div>
                         </div>
-                        
+
                         <div id="allaprodukter">
-                        
+
                         </div>
-                        
-                        
-                        </div>
-                        <div class="col-lg-12 byttasida">
-                            <ul>
-                                <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
-                                <li class="ruta2"><a href="#" class="nummer">1</a></li>
-                                <li class="ruta2"><a href="#" class="nummer">2</a></li>
-                                <li class="ruta2"><a href="#" class="nummer">3</a></li>
-                                <li class="ruta2"><a href="#" class="nummer">4</a></li>
-                                <li><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
-                            </ul>
-                        </div>
+
 
                     </div>
+                    <div class="col-lg-12 byttasida">
+                        <ul>
+                            <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
+                            <li class="ruta2"><a href="#" class="nummer">1</a></li>
+                            <li class="ruta2"><a href="#" class="nummer">2</a></li>
+                            <li class="ruta2"><a href="#" class="nummer">3</a></li>
+                            <li class="ruta2"><a href="#" class="nummer">4</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
-        </div>  
+        </div>
+    </div>  
 
-        <!--footer-->
-        <?php include 'footer.php'; ?>
-        
-            
+    <!--footer-->
+    <?php include 'footer.php'; ?>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/egen.js"></script>
-        <script src="js/json_produkter.js"></script>
-        
-    </body>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/egen.js"></script>
+    <script src="js/json_produkter.js"></script>
+
+</body>
 </html>

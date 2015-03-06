@@ -33,24 +33,24 @@
                                     <div class="col-xs-4 kt">
                                         <form method="get">
                                         <li><h3>Överdelar</h3></li>
-                                        <li><a href="Tshirt.php?plagg=tshirt&gender=kille">T-shirt</a></li>
-                                        <li><a href="Tshirt.php?plagg=tröja&gender=kille">Tröjor</a></li>
-                                        <li><a href="Tshirt.php?plagg=skjorta&gender=kille">Skjortor</a></li>
-                                        <li><a href="Tshirt.php?plagg=jacka&gender=kille">Jackor</a></li>
+                                        <li><a href="Tshirt.php?plagg=tshirt&gender=KILLE">T-shirt</a></li>
+                                        <li><a href="Tshirt.php?plagg=tröja&gender=KILLE">Tröjor</a></li>
+                                        <li><a href="Tshirt.php?plagg=skjorta&gender=KILLE">Skjortor</a></li>
+                                        <li><a href="Tshirt.php?plagg=jacka&gender=KILLE">Jackor</a></li>
                                         </form>
                                     </div>
                                     <div class="col-xs-4 kt">
                                         <form method="get">
                                         <li><h3>Underdelar</h3></li>
-                                        <li><a href="Tshirt.php?plagg=jeans&gender=kille">Jeans</a></li>
-                                        <li><a href="Tshirt.php?plagg=chinos&gender=kille">Chinos</a></li>
+                                        <li><a href="Tshirt.php?plagg=JEANS&gender=KILLE">Jeans</a></li>
+                                        <li><a href="Tshirt.php?plagg=chinos&gender=KILLE">Chinos</a></li>
                                         </form>
                                     </div>
                                     <div class="col-xs-4 kt">
                                         <form method="get">
                                         <li><h3>Accessoarer</h3></li>
-                                        <li><a href="Tshirt.php?plagg=mössa&gender=kille">Mösssor</a></li>
-                                        <li><a href="Tshirt.php?plagg=keps&gender=kille">Kepsar</a></li>
+                                        <li><a href="Tshirt.php?plagg=mössa&gender=KILLE">Mösssor</a></li>
+                                        <li><a href="Tshirt.php?plagg=keps&gender=KILLE">Kepsar</a></li>
                                         </form>
                                     </div>
                                 </div>
@@ -63,24 +63,24 @@
                                     <div class="col-xs-4 kt">
                                         <form method="get">
                                         <li><h3>Överdelar</h3></li>
-                                        <li><a href="Tshirt.php?plagg=tshirt&gender=tjej">T-shirt</a></li>
-                                        <li><a href="Tshirt.php?plagg=tröja&gender=tjej">Tröjor</a></li>
-                                        <li><a href="Tshirt.php?plagg=skjorta&gender=tjej">Skjortor</a></li>
-                                        <li><a href="Tshirt.php?plagg=jacka&gender=tjej">Jackor</a></li>
+                                        <li><a href="Tshirt.php?plagg=tshirt&gender=TJEJ">T-shirt</a></li>
+                                        <li><a href="Tshirt.php?plagg=tröja&gender=TJEJ">Tröjor</a></li>
+                                        <li><a href="Tshirt.php?plagg=skjorta&gender=TJEJ">Skjortor</a></li>
+                                        <li><a href="Tshirt.php?plagg=jacka&gender=TJEJ">Jackor</a></li>
                                         </form>
                                     </div>
                                     <div class="col-xs-4 kt">
                                         <form method="get">
                                         <li><h3>Underdelar</h3></li>
-                                        <li><a href="Tshirt.php?plagg=tshirt&gender=tjej">Jeans</a></li>
-                                        <li><a href="Tshirt.php?plagg=chinos&gender=tjej">Chinos</a></li>
+                                        <li><a href="Tshirt.php?plagg=JEANS&gender=TJEJ">Jeans</a></li>
+                                        <li><a href="Tshirt.php?plagg=chinos&gender=TJEJ">Chinos</a></li>
                                         </form>
                                     </div>
                                     <div class="col-xs-4 kt">
                                         <form method="get">
                                         <li><h3>Accessoarer</h3></li>
-                                        <li><a href="Tshirt.php?plagg=mössa&gender=tjej">Mösssor</a></li>
-                                        <li><a href="Tshirt.php?plagg=keps&gender=tjej">Kepsar</a></li>
+                                        <li><a href="Tshirt.php?plagg=mössa&gender=TJEJ">Mösssor</a></li>
+                                        <li><a href="Tshirt.php?plagg=keps&gender=TJEJ">Kepsar</a></li>
                                         </form>
                                     </div>
                                 </div>

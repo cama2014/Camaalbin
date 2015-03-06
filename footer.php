@@ -14,27 +14,27 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 footer">
-                <h2>Kille:</h2>
-                <a href="Tshirt.php?plagg=tshirt&gender=kille"><p>T-shirt</p></a>
-                <a href="Tshirt.php?plagg=tröja&gender=kille"><p>Tröjor</p></a>
-                <a href="Tshirt.php?plagg=skjorta&gender=kille"><p>Skjortor</p></a>
-                <a href="Tshirt.php?plagg=jacka&gender=kille"><p>Jackor</p></a>
-                <a href="Tshirt.php?plagg=jeans&gender=kille"><p>Jeans</p></a>
-                <a href="Tshirt.php?plagg=chinos&gender=kille"><p>Chinos</p></a>
-                <a href="Tshirt.php?plagg=mössa&gender=kille"><p>Mössor</p></a>
-                <a href="Tshirt.php?plagg=keps&gender=kille"><p>Kepsar</p></a>
+                <h2>KILLE:</h2>
+                <a href="Tshirt.php?plagg=tshirt&gender=KILLE"><p>T-shirt</p></a>
+                <a href="Tshirt.php?plagg=tröja&gender=KILLE"><p>Tröjor</p></a>
+                <a href="Tshirt.php?plagg=skjorta&gender=KILLE"><p>Skjortor</p></a>
+                <a href="Tshirt.php?plagg=jacka&gender=KILLE"><p>Jackor</p></a>
+                <a href="Tshirt.php?plagg=JEANS&gender=KILLE"><p>Jeans</p></a>
+                <a href="Tshirt.php?plagg=chinos&gender=KILLE"><p>Chinos</p></a>
+                <a href="Tshirt.php?plagg=mössa&gender=KILLE"><p>Mössor</p></a>
+                <a href="Tshirt.php?plagg=keps&gender=KILLE"><p>Kepsar</p></a>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 footer">
-                <h2>Tjej:</h2>
-                <a href="Tshirt.php?plagg=tshirt&gender=tjej"><p>T-shirt</p></a>
-                <a href="Tshirt.php?plagg=tröja&gender=tjej"><p>Tröjor</p></a>
-                <a href="Tshirt.php?plagg=skjorta&gender=tjej"><p>Skjortor</p></a>
-                <a href="Tshirt.php?plagg=jacka&gender=tjej"><p>Jackor</p></a>
-                <a href="Tshirt.php?plagg=jeans&gender=tjej"><p>Jeans</p></a>
-                <a href="Tshirt.php?plagg=chinos&gender=tjej"><p>Chinos</p></a>
-                <a href="Tshirt.php?plagg=mössa&gender=tjej"><p>Mössor</p></a>
-                <a href="Tshirt.php?plagg=keps&gender=tjej"><p>Kepsar</p></a>
+                <h2>TJEJ:</h2>
+                <a href="Tshirt.php?plagg=tshirt&gender=TJEJ"><p>T-shirt</p></a>
+                <a href="Tshirt.php?plagg=tröja&gender=TJEJ"><p>Tröjor</p></a>
+                <a href="Tshirt.php?plagg=skjorta&gender=TJEJ"><p>Skjortor</p></a>
+                <a href="Tshirt.php?plagg=jacka&gender=TJEJ"><p>Jackor</p></a>
+                <a href="Tshirt.php?plagg=JEANS&gender=TJEJ"><p>Jeans</p></a>
+                <a href="Tshirt.php?plagg=chinos&gender=TJEJ"><p>Chinos</p></a>
+                <a href="Tshirt.php?plagg=mössa&gender=TJEJ"><p>Mössor</p></a>
+                <a href="Tshirt.php?plagg=keps&gender=TJEJ"><p>Kepsar</p></a>
             </div>
 
             <div class="col-lg-2 col-md-2 col-sm-2 footer">

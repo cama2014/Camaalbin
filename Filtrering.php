@@ -1,6 +1,11 @@
 <?php
 
+define("DB_SERVER", "localhost");
+define("DB_EMAIL", "root");
+define("DB_PASSWORD", "");
+define("DB_NAME", "slutprojekt");
 
+$dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8', DB_EMAIL, DB_PASSWORD);
 
 //if (isset($_POST["handling"])) {
 //    $category = $_POST["category"];

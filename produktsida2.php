@@ -31,7 +31,20 @@
     <body>
 
         <!--header-->    
-        <?php include 'nav.php'; ?>
+        <?php include 'nav.php'; 
+        
+        
+        
+        if(isset($_GET["pris"])){
+            echo "<input id='pris' type='hidden' value='" . $_GET["pris"] . "'>";
+        }
+        if(isset($_GET["namn"])){
+            echo "<input id='namn' type='hidden' value='" . $_GET["namn"] . "'>";
+        }
+        
+        
+        
+        ?>
 
         <!--section-->
 
@@ -40,7 +53,7 @@
 
             <div class="headline-container">
                 <div class="col-lg-12 RN line-margin">
-                    <div class="headline"><h3><span class="headline-center">Produktnamn här</span></div></h3>
+                    <div class="headline"><h3><span id='h3_namn' class="headline-center"></span></div></h3>
                 </div>
             </div>
 
@@ -80,7 +93,7 @@
                             <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn btn-primary huvud-button-size">XL</button></a>
                         </div>
 
-                        <h5>499 SEK</h5>
+                        <h5 id='h5_pris'></h5>
                         <!--                        <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>-->
                         <form method="post">
                         <input type="submit" name="action" value="Add">
@@ -99,7 +112,7 @@
 
                     <div class="test">
 
-                        <img src="img/Tshirt_guide.png" class="img-responsive" alt="Responsive image">
+                        <img href="" class="img-responsive" alt="Responsive image">
 
                     </div>
                 </div>
@@ -117,5 +130,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/json_produkter.js"></script>
     </body>
 </html>
