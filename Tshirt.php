@@ -68,37 +68,14 @@
                                 <div class="collapse" id="marke">
                                     <div class="well">
                                         <ul>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Appertiff</p></span></a></li>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Burton</p></span></a></li>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Carhartt</p></span></a></li>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>DC</p></span></a></li>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Etnies</p></span></a></li>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Humör</p></span></a></li>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Neff</p></span></a></li>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Skank</p></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>                           
-                            </li>                               
-                        </ul>
-                    </div>
-                    <div class="filter">
-                        <ul class="filter-lista">                                                 
-                            <li>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#farg" aria-expanded="false" aria-controls="farg">
-                                    FÄRG
-                                </a>
-                                <div class="collapse" id="farg">
-                                    <div class="well">
-                                        <ul>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: blue;"><p>Blå</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: brown;"><p>Brun</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: green;"><p>Grön</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: yellow;"><p>Gul</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: pink;"><p>Rosa</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: red;"><p>Röd</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: black;"><p>Svart</p></span></a></li>
-                                            <li><a href="#"><span class="farg-typ" style="background-color: white;"><p>vit</p></span></a></li>                                          
+                                            <li class="Appertiff"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Appertiff</p></span></li>
+                                            <li class="Burton"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Burton</p></span></li>
+                                            <li class="Carhartt"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Carhartt</p></span></li>
+                                            <li class="DC"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>DC</p></span></li>
+                                            <li class="Etnies"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Etnies</p></span></li>
+                                            <li class="Humör"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Humör</p></span></li>
+                                            <li class="Neff"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Neff</p></span></li>
+                                            <li class="Skank"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Skank</p></span></li>
                                         </ul>
                                     </div>
                                 </div>                           
@@ -115,8 +92,8 @@
                                 <div class="collapse" id="pris">
                                     <div class="well">
                                         <ul>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Lägst till högst</p></span></a></li>
-                                            <li><a href="#"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Högst till lägst</p></span></a></li>                                                                                                                               
+                                            <li class="lTillh"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Lägst till högst</p></span></li>
+                                            <li class="hTilll"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Högst till lägst</p></span></li>                                                                                                                               
                                         </ul>
                                     </div>
                                 </div>                           

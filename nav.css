@@ -269,3 +269,24 @@ a.glomtlos{
     padding: 15px;
     width: auto;
 }
+
+/*produkt i kundvagn*/
+
+.produktivagn-row{
+    
+    background-color: pink;
+    margin: 5px;
+    
+}
+
+.imgIvagn{
+    
+    background-color: red;
+    
+}
+
+.produktInfoIvagn{
+    
+    background-color: blue;
+    
+}
