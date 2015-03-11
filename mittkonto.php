@@ -1,14 +1,7 @@
-<?php
-
-
-//include 'kill.php';
-?>
-
 <!DOCTYPE html>
 <?php
-
 include 'nav.php';
-
+include 'UpdatePHP.php';
 ?>
 <html lang="en">
     <head>
@@ -46,28 +39,30 @@ include 'nav.php';
                     <div class="col-lg-offset-4 col-lg-4 col-lg-offset-4 popup-mittkonto-kontinfo">
                         <div class="popup-ruta">
                             <h3>PERSONLIGA DETALJER</h3>
+                            <form method="post">
                             <table class="table">
                                 <tr>
                                     <td><p>Förnamn</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Förnamn" name="fornamn"></td>
                                 </tr>
                                 <tr>
                                     <td><p>Efternamn</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Efternamn" name="efternamn"></td>
                                 </tr>
                                 <tr>
-                                    <td><p>E-post</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-post"></td>
+                                    <td><p>Lösenord</p></td>
+                                    <td><input type="password" class="form-control" id="exampleInputEmail1" placeholder="Lösenord" name="losenord"></td>
                                 </tr>
                                 <tr>
                                     <td><p>Telefonnummer</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer"></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer" name="telenummer"></td>
                                 </tr>
                                 <tr>
                                     <td><button class="btn btn-primary huvud-button tillbaka-button-kontinfo" type="submit">TILLBAKA</button></td>
-                                    <td><button class="btn btn-primary huvud-button andra-button-kontinfo" type="submit">SPARA</button></td>
+                                    <td><input type="submit" class="btn btn-primary huvud-button andra-button-kontinfo" name="action" value="SPARA"></td>
                                 </tr>
-                            </table>                                     
+                            </table>
+                                </form>
                         </div>
                     </div>
                 </div>

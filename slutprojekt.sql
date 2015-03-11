@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Värd: 127.0.0.1
--- Tid vid skapande: 06 mars 2015 kl 10:56
+-- Tid vid skapande: 11 mars 2015 kl 14:03
 -- Serverversion: 5.6.20
 -- PHP-version: 5.5.15
 
@@ -28,28 +28,36 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `inlogg` (
   `email` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL
+  `password` varchar(50) NOT NULL,
+  `namn` varchar(30) NOT NULL,
+  `efternamn` varchar(30) NOT NULL,
+  `telenummer` varchar(30) NOT NULL,
+  `adress` varchar(30) NOT NULL,
+  `ort` varchar(30) NOT NULL,
+  `postnummer` varchar(30) NOT NULL,
+  `land` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumpning av Data i tabell `inlogg`
 --
 
-INSERT INTO `inlogg` (`email`, `password`) VALUES
-('', ''),
-('albin@albin.se', 'qwe'),
-('anton@anton.se', 'anton'),
-('calle@calle.calle', 'calle'),
-('gah@gah.se', 'gah'),
-('go@away.se', 'go@home.se'),
-('go@home.se', 'go@home'),
-('hej@hej.se', 'hej'),
-('ja@ja.se', 'ja'),
-('jup@jupp', 'jup'),
-('kul@kul.kul', 'kul'),
-('po@po.se', 'po'),
-('qw@qw.qw', 'qw'),
-('up@up', 'up');
+INSERT INTO `inlogg` (`email`, `password`, `namn`, `efternamn`, `telenummer`, `adress`, `ort`, `postnummer`, `land`) VALUES
+('', '', '', '', '', '', '', '', ''),
+('albin@albin.se', 'qwe', '', '', '', '', '', '', ''),
+('anton@anton.se', 'anton', '', '', '', '', '', '', ''),
+('calle@calle.calle', 'calle', '', '', '', '', '', '', ''),
+('carl@carl.carl', 'carl', '', '', '', '', '', '', ''),
+('gah@gah.se', 'gah', '', '', '', '', '', '', ''),
+('go@away.se', 'go@home.se', '', '', '', '', '', '', ''),
+('go@home.se', 'go@home', '', '', '', '', '', '', ''),
+('hej@hej.se', 'hej', '', '', '', '', '', '', ''),
+('ja@ja.se', 'ja', '', '', '', '', '', '', ''),
+('jup@jupp', 'jup', '', '', '', '', '', '', ''),
+('kul@kul.kul', 'kul', '', '', '', '', '', '', ''),
+('po@po.se', 'po', '', '', '', '', '', '', ''),
+('qw@qw.qw', 'qw', '', '', '', '', '', '', ''),
+('up@up', 'up', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 

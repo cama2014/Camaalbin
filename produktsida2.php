@@ -41,6 +41,9 @@
         if(isset($_GET["namn"])){
             echo "<input id='namn' type='hidden' value='" . $_GET["namn"] . "'>";
         }
+        if(isset($_GET["plagg"])){
+            echo "<input id='plagg' type='hidden' value='" . $_GET["plagg"] . "'>";
+        }
         
         
         
@@ -110,9 +113,9 @@
                         </div>
                     </div>
 
-                    <div class="test">
+                    <div id="guide_img">
 
-                        <img href="" class="img-responsive" alt="Responsive image">
+                        
 
                     </div>
                 </div>
