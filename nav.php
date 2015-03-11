@@ -155,6 +155,16 @@
                             <ul class="dropdown-menu" role="menu">
                                 <div class="tomkundvagn">
                                     <?php include 'Kundvagn.php';?>
+                                    
+                                    <div class="row produktivagn-row">
+                                        
+                                        <div class="col-lg-3 imgIvagn">
+                                            <img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image">                                            
+                                        </div>
+                                        <div class="col-lg-6 col-lg-offset-3 produktInfoIvagn"></div>
+                                        
+                                    </div>
+                                    
                                     <p>Kundvagnen är tom<p>
                                 </div>                                       
                             </ul>
