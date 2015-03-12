@@ -3,13 +3,13 @@
 
 $(document).ready(function() {
 
-    var kategoriArray = [];
+
 
     $(".well ul li.Appertiff").click(function() {
+//        hej();
+        addExistDelNotFound("appertiff");
 
-        addExistDelNotFound("appertiff", kategoriArray);
 
-        
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
         $(this).children(".farg-typ").toggleClass("farg-typ-crossed");
@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     $(".well ul li.Burton").click(function() {
 
-        addExistDelNotFound("burton", kategoriArray);
+        addExistDelNotFound("burton");
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
@@ -28,7 +28,7 @@ $(document).ready(function() {
 
     $(".well ul li.Carhartt").click(function() {
 
-        addExistDelNotFound("carhartt", kategoriArray);
+        addExistDelNotFound("carhartt");
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     $(".well ul li.DC").click(function() {
 
-        addExistDelNotFound("dc", kategoriArray);
+        addExistDelNotFound("dc");
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
@@ -48,7 +48,7 @@ $(document).ready(function() {
 
     $(".well ul li.Etnies").click(function() {
 
-        addExistDelNotFound("etnies", kategoriArray);
+        addExistDelNotFound("etnies");
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
@@ -58,7 +58,7 @@ $(document).ready(function() {
 
     $(".well ul li.Humör").click(function() {
 
-        addExistDelNotFound("humör", kategoriArray);
+        addExistDelNotFound("humör");
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
@@ -68,7 +68,7 @@ $(document).ready(function() {
 
     $(".well ul li.Neff").click(function() {
 
-        addExistDelNotFound("neff", kategoriArray);
+        addExistDelNotFound("neff");
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
@@ -78,7 +78,7 @@ $(document).ready(function() {
 
     $(".well ul li.Skank").click(function() {
 
-        addExistDelNotFound("skank", kategoriArray);
+        addExistDelNotFound("skank");
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
@@ -90,7 +90,7 @@ $(document).ready(function() {
     //pris lägst till högst
     $(".well ul li.lTillh").click(function() {
 
-
+        
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
@@ -174,21 +174,53 @@ $(document).ready(function() {
         $(".blur-popup-mittkonto-adressbok").hide();
     });
 
+
+
+
 });
 
 
 
-function addExistDelNotFound(marke, kategoriArray) {
-    var found = jQuery.inArray(marke, kategoriArray);
+
+function addExistDelNotFound(klickat) {
+    
+    //läs befintliga märken som lagras i input
+    var finnsRedan = $('#markeInput').val();
+
+    //gör om till array
+    var finnsArray = $(finnsRedan).serializeArray();
+
+    //kolla om det klickade finns i arrayen, om så ta bort annars lägg till
+    var found = jQuery.inArray(klickat, finnsArray);
     if (found >= 0) {
         // Element was found, remove it.
-        kategoriArray.splice(found, 1);
-        return false;
+        finnsArray.splice(found, 1);
+
     } else {
         // Element was not found, add it.
-        kategoriArray.push(marke);
-        return true;
+        finnsArray.push(klickat);
     }
 
+    //gör om array till sträng
+    var skickaSträng = $(finnsArray).serialize();
+    //lagra sträng i input
+    $('#markeInput').val(skickaSträng);
+    
+    //kör ajax-fråga m input-data
+
+    $.getJSON("mattiasphpfil.php",
+            {},
+    function(data) {
+        
+        $.each(data, function(index, value) {
+            if (index < 16) {
+                $('#allaprodukter').append('<div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><a href="produktsida2.php?namn=' + value.namn + '&plagg='+value.plagg+'&pris=' + value.pris + '"><div class="beskrivnig"><img src="' + value.bild + '" width="350" height="450" class="img-responsive" alt="Responsive image"><h3>' + value.märke + '</h3><h3>' + value.namn + '</h3><span class="price">' + value.pris + ' SEK</span></div></a></div>');
+
+            }
+
+        });
+
+
+    });
 
 }

@@ -29,7 +29,6 @@ $(document).ready(function() {
 
     });
 
-
     var pris2 = $('#pris').val();
     $('#h5_pris').append(pris2 + " SEK");
 

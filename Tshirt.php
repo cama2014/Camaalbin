@@ -54,7 +54,9 @@
         ?>
 
         <!--section-->
-
+        <form>
+            <input type="hidden" value="" name="markeInput" id="markeInput">
+        </form>
         <div class="container section-container">
             <div class="row">
                 <div class="col-lg-2 filterdel">
