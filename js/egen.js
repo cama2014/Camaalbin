@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 
     $(".well ul li.Appertiff").click(function() {
-//        hej();
+
         addExistDelNotFound("appertiff");
 
 
@@ -173,6 +173,14 @@ $(document).ready(function() {
     $(".tillbaka-button-adressbok").click(function() {
         $(".blur-popup-mittkonto-adressbok").hide();
     });
+//    popup fönster loggaut
+    $(".loggaut a").click(function() {
+        $(".blur-popup-mittkonto-loggaut").show();
+    });
+
+    $(".tillbaka-button-loggaut").click(function() {
+        $(".blur-popup-mittkonto-loggaut").hide();
+    });
 
 
 
@@ -189,7 +197,7 @@ function addExistDelNotFound(klickat) {
 
     //gör om till array
     var finnsArray = $(finnsRedan).serializeArray();
-
+    
     //kolla om det klickade finns i arrayen, om så ta bort annars lägg till
     var found = jQuery.inArray(klickat, finnsArray);
     if (found >= 0) {
@@ -199,28 +207,36 @@ function addExistDelNotFound(klickat) {
     } else {
         // Element was not found, add it.
         finnsArray.push(klickat);
+        
     }
 
     //gör om array till sträng
     var skickaSträng = $(finnsArray).serialize();
+    
     //lagra sträng i input
     $('#markeInput').val(skickaSträng);
     
     //kör ajax-fråga m input-data
 
-    $.getJSON("mattiasphpfil.php",
-            {},
-    function(data) {
-        
-        $.each(data, function(index, value) {
-            if (index < 16) {
-                $('#allaprodukter').append('<div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><a href="produktsida2.php?namn=' + value.namn + '&plagg='+value.plagg+'&pris=' + value.pris + '"><div class="beskrivnig"><img src="' + value.bild + '" width="350" height="450" class="img-responsive" alt="Responsive image"><h3>' + value.märke + '</h3><h3>' + value.namn + '</h3><span class="price">' + value.pris + ' SEK</span></div></a></div>');
 
-            }
-
-        });
-
-
-    });
+//    var gender = $('#gender').val();
+//    var plagg = $('#plagg').val();
+//    var marke = $('#marke').val();
+//
+//
+//    $.getJSON("mattiasphpfil.php",
+//            {},
+//    function(data) {
+//        
+//        $.each(data, function(index, value) {
+//            if (index < 16) {
+//                $('#allaprodukter').append('<div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><a href="produktsida2.php?namn=' + value.namn + '&plagg='+value.plagg+'&pris=' + value.pris + '"><div class="beskrivnig"><img src="' + value.bild + '" width="350" height="450" class="img-responsive" alt="Responsive image"><h3>' + value.märke + '</h3><h3>' + value.namn + '</h3><span class="price">' + value.pris + ' SEK</span></div></a></div>');
+//
+//            }
+//
+//        });
+//
+//
+//    });
 
 }

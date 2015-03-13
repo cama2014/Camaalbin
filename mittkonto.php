@@ -40,29 +40,29 @@ include 'UpdatePHP.php';
                         <div class="popup-ruta">
                             <h3>PERSONLIGA DETALJER</h3>
                             <form method="post">
-                            <table class="table">
-                                <tr>
-                                    <td><p>Förnamn</p></td>
-                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Förnamn" name="fornamn"></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Efternamn</p></td>
-                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Efternamn" name="efternamn"></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Lösenord</p></td>
-                                    <td><input type="password" class="form-control" id="exampleInputEmail1" placeholder="Lösenord" name="losenord"></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Telefonnummer</p></td>
-                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer" name="telenummer"></td>
-                                </tr>
-                                <tr>
-                                    <td><button class="btn btn-primary huvud-button tillbaka-button-kontinfo" type="submit">TILLBAKA</button></td>
-                                    <td><input type="submit" class="btn btn-primary huvud-button andra-button-kontinfo" name="action" value="SPARA"></td>
-                                </tr>
-                            </table>
-                                </form>
+                                <table class="table">
+                                    <tr>
+                                        <td><p>Förnamn</p></td>
+                                        <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Förnamn" name="fornamn"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>Efternamn</p></td>
+                                        <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Efternamn" name="efternamn"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>Lösenord</p></td>
+                                        <td><input type="password" class="form-control" id="exampleInputEmail1" placeholder="Lösenord" name="losenord"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>Telefonnummer</p></td>
+                                        <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer" name="telenummer"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="btn btn-primary huvud-button tillbaka-button-kontinfo" type="submit">TILLBAKA</button></td>
+                                        <td><input type="submit" class="btn btn-primary huvud-button andra-button-kontinfo" name="action" value="SPARA"></td>
+                                    </tr>
+                                </table>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -103,6 +103,28 @@ include 'UpdatePHP.php';
                                 <tr>
                                     <td><button class="btn btn-primary huvud-button tillbaka-button-adressbok" type="submit">TILLBAKA</button></td>
                                     <td><button class="btn btn-primary huvud-button andra-button-adressbok" type="submit">SPARA</button></td>
+                                </tr>
+                            </table>                                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--popup fönster logg ut-->
+        <div class="blur-popup-mittkonto-loggaut">
+            <div class="container section-container">  
+                <div class="row mittkonto-row">
+                    <div class="col-lg-offset-4 col-lg-4 col-lg-offset-4 popup-mittkonto-loggaut">
+                        <div class="popup-ruta">
+                            <h3>ÄNDRA LÖSENORD</h3>
+                            <table class="table">                              
+                                <tr>
+                                    <td><p>Nytt lösenord</p></td>
+                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nytt lösenord"></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn btn-primary huvud-button tillbaka-button-loggaut" type="submit">TILLBAKA</button></td>
+                                    <td><button class="btn btn-primary huvud-button andra-button-loggaut" type="submit">SPARA</button></td>
                                 </tr>
                             </table>                                     
                         </div>
@@ -193,9 +215,9 @@ include 'UpdatePHP.php';
                             </div>
                             <div class="loggaut rutairuta">
                                 <form method="post">
-<!--                                    <a href="kill.php">kill</a>-->
+                                    <!--                                    <a href="kill.php">kill</a>-->
                                     <a href="kill.php" class="btn btn-primary huvud-button loggaut-button" role="button" aria-expanded="false">LOGGA UT</a>
-                                <!--<input  type="submit" class="btn btn-primary huvud-button loggaut-button" name="action" value="LOGGA UT">-->
+                                    <a href="#">Ändra Lösenord</a>
                                 </form>
 
                             </div>
