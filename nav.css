@@ -264,7 +264,7 @@ a.glomtlos{
 
 .tomkundvagn{
 
-    outline: dotted thin lightgray;
+    /*outline: dotted thin lightgray;*/
     margin: 15px;
     padding: 15px;
     width: auto;
@@ -274,19 +274,43 @@ a.glomtlos{
 
 .produktivagn-row{
     
-    background-color: pink;
+    background-color: whitesmoke;
     margin: 5px;
+    outline: solid thin lightgray;
     
 }
 
-.imgIvagn{
+.produktInfoIvagn p{
     
-    background-color: red;
+    color: #BD0000;
+    font-size: 12px;
+    margin-top: 1px;
     
 }
 
-.produktInfoIvagn{
+.produktInfoIvagn p:first-of-type{
     
-    background-color: blue;
+    color: #BD0000;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     
+}
+
+.tabortFranvagn{
+   
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.btn-primary.huvud-button.tabortFkv-button{
+width: auto;
+margin-top: 12px;
+margin-left: 22px;
+color: #BD0000;
+background-color: whitesmoke;
+border-color: #BD0000;
+border-radius: 0px;
+text-align: center;
 }

@@ -204,7 +204,7 @@ include 'UpdatePHP.php';
                                 <tr>
                                     <td><a href="#">Ändra Kontaktinformation</a></td>
                                 </tr>
-                            </table>
+                            </table>                            
                         </div>
                     </div>
 
@@ -219,7 +219,6 @@ include 'UpdatePHP.php';
                                     <a href="kill.php" class="btn btn-primary huvud-button loggaut-button" role="button" aria-expanded="false">LOGGA UT</a>
                                     <a href="#">Ändra Lösenord</a>
                                 </form>
-
                             </div>
                         </div>
                     </div>

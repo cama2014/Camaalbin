@@ -173,6 +173,14 @@ $(document).ready(function() {
     $(".tillbaka-button-adressbok").click(function() {
         $(".blur-popup-mittkonto-adressbok").hide();
     });
+    
+    $(".adressbok a").click(function() {
+        $(".blur-popup-mittkonto-adressbok").show();
+    });
+
+    $(".tillbaka-button-adressbok").click(function() {
+        $(".blur-popup-mittkonto-adressbok").hide();
+
 //    popup fönster loggaut
     $(".loggaut a").click(function() {
         $(".blur-popup-mittkonto-loggaut").show();
@@ -180,11 +188,8 @@ $(document).ready(function() {
 
     $(".tillbaka-button-loggaut").click(function() {
         $(".blur-popup-mittkonto-loggaut").hide();
+
     });
-
-
-
-
 });
 
 
@@ -252,3 +257,4 @@ function addExistDelNotFound(klickat) {
     });
 
 }
+});
