@@ -165,7 +165,7 @@
                                         
                                     </div>
                                     
-                                    <p>Kundvagnen är tom<p>
+                                    
                                 </div>                                       
                             </ul>
                         </li>

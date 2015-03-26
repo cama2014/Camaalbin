@@ -195,44 +195,55 @@ function addExistDelNotFound(klickat) {
     //läs befintliga märken som lagras i input
     var finnsRedan = $('#markeInput').val();
 
-    //gör om till array
-    var finnsArray = $(finnsRedan).serializeArray();
+    console.log("finnsredan: " + finnsRedan);
+    //gör om string till array
+    var finnsArray = $('#markeInput').val().split(',');
 
+    //tar bort tom plats
+    if (finnsArray[0] == "") {
+        finnsArray.splice(0, 1);
+    }
+
+    console.log("array av finnsredan:" + finnsArray);
     //kolla om det klickade finns i arrayen, om så ta bort annars lägg till
     var found = jQuery.inArray(klickat, finnsArray);
     if (found >= 0) {
+        console.log('hittad');
         // Element was found, remove it.
         finnsArray.splice(found, 1);
 
     } else {
+        console.log('ny');
         // Element was not found, add it.
         finnsArray.push(klickat);
 
-    }
 
+    }
+    console.log(finnsArray);
     //gör om array till sträng
-    var skickaStrang = finnsArray.join();
+    var skickaStrang = finnsArray.join(',');
 
     //lagra sträng i input
     $('#markeInput').val(skickaStrang);
     console.log(skickaStrang)
+    console.log($('#markeInput').val());
     //kör ajax-fråga m input-data
 
 
 
     var gender = $('#gender').val();
     var plagg = $('#plagg').val();
-    var marke = $('#marke').val();
+    var marke = $('#markeInput').val();
     var pris = $('#pris').val();
 
-    $.getJSON("mattiasphpfil.php",
-            {gender: gender, plagg: plagg, marke: marke,pris:pris},
+    $.getJSON("Sortering.php",
+            {gender: gender, plagg: plagg, marke: marke, pris: pris},
     function(data) {
-
+        $('#allaprodukter').children().remove();
         $.each(data, function(index, value) {
             if (index < 16) {
-                $('#allaprodukter').append('<div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><a href="produktsida2.php?namn=' + value.namn + '&plagg=' + value.plagg + '&pris=' + value.pris + '"><div class="beskrivnig"><img src="' + value.bild + '" width="350" height="450" class="img-responsive" alt="Responsive image"><h3>' + value.märke + '</h3><h3>' + value.namn + '</h3><span class="price">' + value.pris + ' SEK</span></div></a></div>');
 
+                $('#allaprodukter').append('<div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><a href="produktsida2.php?namn=' + value.namn + '&plagg=' + value.plagg + '&pris=' + value.pris + '"><div class="beskrivnig"><img src="' + value.bild + '" width="350" height="450" class="img-responsive" alt="Responsive image"><h3>' + value.märke + '</h3><h3>' + value.namn + '</h3><span class="price">' + value.pris + ' SEK</span></div></a></div>');
             }
 
         });

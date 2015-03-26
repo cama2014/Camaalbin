@@ -90,17 +90,28 @@
                         <br>
                         <br>
                         <div class="btn-group" role="group" aria-label="...">
-                            <a id="btn" href="#size=small"> <button class="btn btn btn-primary huvud-button-size">S</button></a>
-                            <a id="btn" href="#size=medium"> <button type="button" class="btn btn btn-primary huvud-button-size">M</button></a>
-                            <a id="btn" href="#size=large"><button type="button" class="btn btn btn-primary huvud-button-size">L</button></a>
-                            <a id="btn" href="#size=xlarge"> <button type="button" class="btn btn btn-primary huvud-button-size">XL</button></a>
+                            <a id="btn" href="&size=small"> <button class="btn btn btn-primary huvud-button-size">S</button></a>
+                            <a id="btn" href="&size=medium"> <button type="button" class="btn btn btn-primary huvud-button-size">M</button></a>
+                            <a id="btn" href="&size=large"><button type="button" class="btn btn btn-primary huvud-button-size">L</button></a>
+                            <a id="btn" href="&size=xlarge"> <button type="button" class="btn btn btn-primary huvud-button-size">XL</button></a>
                         </div>
 
                         <h5 id='h5_pris'></h5>
                         <!--                        <a class="btn btn-primary huvud-button button-köp" href="#" role="button">Lägg till i varukorg</a>-->
-                        <form method="post">
-                        <input type="submit" name="action" value="Add">
-                        </form>
+                        
+                        <?php 
+                        $query_arr = $_GET;
+                        
+                        $query = http_build_query($query_arr);
+                        
+                        ?>
+                        
+                        <a class="btn btn-primary huvud-button button-köp" href=<?php echo "produktsida2.php?".$query."&action=Add"; ?> role="button">Lägg till i varukorg</a>
+                        
+                        
+<!--                        <form method="GET">
+                       <input type="submit" name="action" value="Add">
+                        </form>-->
 
                     </div>
                 </div>
