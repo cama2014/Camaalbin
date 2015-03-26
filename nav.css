@@ -264,7 +264,7 @@ a.glomtlos{
 
 .tomkundvagn{
 
-    outline: dotted thin lightgray;
+    /*outline: dotted thin lightgray;*/
     margin: 15px;
     padding: 15px;
     width: auto;
@@ -277,18 +277,6 @@ a.glomtlos{
     background-color: whitesmoke;
     margin: 5px;
     outline: solid thin lightgray;
-    
-}
-
-.imgIvagn{
-    
-    /*background-color: red;*/
-    
-}
-
-.produktInfoIvagn{
-    
-    /*background-color: plum;*/
     
 }
 

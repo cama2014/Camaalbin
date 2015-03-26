@@ -174,7 +174,7 @@ $(document).ready(function() {
         $(".blur-popup-mittkonto-adressbok").hide();
     });
     
-    $(".loggaut a").click(function() {
+    $(".adressbok a").click(function() {
         $(".blur-popup-mittkonto-adressbok").show();
     });
 
@@ -190,10 +190,6 @@ $(document).ready(function() {
         $(".blur-popup-mittkonto-loggaut").hide();
 
     });
-
-
-
-
 });
 
 
@@ -250,4 +246,4 @@ function addExistDelNotFound(klickat) {
     });
 
 }
-}
+});
