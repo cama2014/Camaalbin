@@ -173,6 +173,14 @@ $(document).ready(function() {
     $(".tillbaka-button-adressbok").click(function() {
         $(".blur-popup-mittkonto-adressbok").hide();
     });
+    
+    $(".loggaut a").click(function() {
+        $(".blur-popup-mittkonto-adressbok").show();
+    });
+
+    $(".tillbaka-button-adressbok").click(function() {
+        $(".blur-popup-mittkonto-adressbok").hide();
+    });
 
 
 

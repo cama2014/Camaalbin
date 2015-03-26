@@ -182,7 +182,7 @@ include 'UpdatePHP.php';
                                 <tr>
                                     <td><a href="#">Ändra Kontaktinformation</a></td>
                                 </tr>
-                            </table>
+                            </table>                            
                         </div>
                     </div>
 
@@ -195,9 +195,8 @@ include 'UpdatePHP.php';
                                 <form method="post">
 <!--                                    <a href="kill.php">kill</a>-->
                                     <a href="kill.php" class="btn btn-primary huvud-button loggaut-button" role="button" aria-expanded="false">LOGGA UT</a>
-                                <!--<input  type="submit" class="btn btn-primary huvud-button loggaut-button" name="action" value="LOGGA UT">-->
+                                    <a href="#">Ändra Lösenord</a>
                                 </form>
-
                             </div>
                         </div>
                     </div>
