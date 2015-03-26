@@ -159,3 +159,39 @@
     float: right;
 
 }
+
+/*popup fönster adressbok*/
+
+.blur-popup-mittkonto-loggaut{
+
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+    background: rgb(211,211,211);
+    background: rgba(211,211,211,0.50);
+    display:  none;
+    z-index: 100;
+    position: absolute;
+    margin: 0 auto;
+
+}
+
+.popup-mittkonto-loggaut{
+
+    min-height: 1px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+    outline: solid thin #222;
+
+}
+
+.andra-button-loggaut{
+
+    float: right;
+
+}
