@@ -106,7 +106,7 @@
                         
                         ?>
                         
-                        <a class="btn btn-primary huvud-button button-köp" href=<?php echo "produktsida2.php?".$query."&action=Add"; ?> role="button">Lägg till i varukorg</a>
+                        <div class="btn btn-primary huvud-button button-köp">Lägg till i varukorg</div>
                         
                         
 <!--                        <form method="GET">
@@ -145,5 +145,6 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/json_produkter.js"></script>
+        
     </body>
 </html>

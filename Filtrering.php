@@ -11,6 +11,8 @@ $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8
 //    $category = $_POST["category"];
 //    $sortby = $_POST["sortby"];
 //    $sortord = $_POST["sortord"];
+
+
 $gender = $_GET["gender"];
 $plagg = $_GET["plagg"];
 

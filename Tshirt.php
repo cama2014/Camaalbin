@@ -120,7 +120,7 @@
                         </div>
 
                         <div id="allaprodukter">
-
+                            
                         </div>
 
 
@@ -150,6 +150,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/egen.js"></script>
     <script src="js/json_produkter.js"></script>
-
+    <script src="js/json_kundvagn.js"></script>
+    
 </body>
 </html>

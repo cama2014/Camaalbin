@@ -154,24 +154,18 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <div class="tomkundvagn">
-<<<<<<< HEAD
-                                    <?php include 'Kundvagn.php';?>
+
+                                   
                                     
-                                    <div class="row produktivagn-row">
-                                        
-                                        <div class="col-lg-3 imgIvagn">
-                                            <img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image">                                            
-                                        </div>
-                                        <div class="col-lg-6 col-lg-offset-3 produktInfoIvagn"></div>
+                                    
+                                    
+                                    <div id="kundvagns_append">
                                         
                                     </div>
+
                                     
+                                    <?php // include 'Cart.php';?>                                    
                                     
-=======
-                                    <div class="row produktivagn-row"><div class="col-lg-3 imgIvagn"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div><div class="col-lg-6 produktInfoIvagn"><p>' + value.namn + '</p><p>' + value.pris + ' SEK</p></div><div class="col-lg-3 tabortFranvagn"><input type="submit" class="btn btn-primary huvud-button tabortFkv-button" name="action" value="X"></div></div>
-                                    <?php include 'Kundvagn.php';?>                                    
-                                    <p>Kundvagnen är tom<p>
->>>>>>> origin/master
                                 </div>                                       
                             </ul>
                         </li>
@@ -182,3 +176,9 @@
         </nav>
     </div>
 </div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/json_kundvagn.js"></script>
