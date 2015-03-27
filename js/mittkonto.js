@@ -1,9 +1,9 @@
 
 
 
-$.getJSON("informationkontoPHP.php"
-        
-        $('#fornam').append();
-        
-        );
+//$.getJSON("informationkontoPHP.php"
+//        
+//        $('#fornam').append();
+//        
+//        );
 

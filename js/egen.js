@@ -115,11 +115,24 @@ $(document).ready(function() {
     $(".byttasida li:nth-of-type(2) a").addClass("nummer-crossed");
 
     //klick för
-    $(".nummer").click(function() {
+    $(".nummer1").click(function() {
         $(".ruta2").removeClass("ruta2-crossed");
         $(this).parent(".ruta2").toggleClass("ruta2-crossed");
-        $(".nummer").removeClass("nummer-crossed");
+        $(".nummer2").removeClass("nummer-crossed");
         $(this).toggleClass("nummer-crossed");
+        $('#page').val("1");
+        console.log($('#page').val());
+        addExistDelNotFound("");
+    });
+    
+    $(".nummer2").click(function() {
+        $(".ruta2").removeClass("ruta2-crossed");
+        $(this).parent(".ruta2").toggleClass("ruta2-crossed");
+        $(".nummer1").removeClass("nummer-crossed");
+        $(this).toggleClass("nummer-crossed");
+        $('#page').val("2");
+        console.log($('#page').val());
+        addExistDelNotFound("");
     });
 
     //pilar
@@ -137,6 +150,9 @@ $(document).ready(function() {
             $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
             $(".byttasida li:nth-of-type(" + rutIndex + ") a").addClass("nummer-crossed");
         }
+
+
+
     });
 
     $(".glyphicon-chevron-left").click(function() {
@@ -152,6 +168,9 @@ $(document).ready(function() {
             $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
             $(".byttasida li:nth-of-type(" + rutIndex + ") a").addClass("nummer-crossed");
         }
+
+
+
     });
 
 
@@ -173,7 +192,7 @@ $(document).ready(function() {
     $(".tillbaka-button-adressbok").click(function() {
         $(".blur-popup-mittkonto-adressbok").hide();
     });
-    
+
     $(".adressbok a").click(function() {
         $(".blur-popup-mittkonto-adressbok").show();
     });
@@ -182,79 +201,81 @@ $(document).ready(function() {
         $(".blur-popup-mittkonto-adressbok").hide();
 
 //    popup fönster loggaut
-    $(".loggaut a").click(function() {
-        $(".blur-popup-mittkonto-loggaut").show();
+        $(".loggaut a").click(function() {
+            $(".blur-popup-mittkonto-loggaut").show();
+        });
+
+        $(".tillbaka-button-loggaut").click(function() {
+            $(".blur-popup-mittkonto-loggaut").hide();
+
+        });
     });
 
-    $(".tillbaka-button-loggaut").click(function() {
-        $(".blur-popup-mittkonto-loggaut").hide();
-
-    });
-});
 
 
 
+    function addExistDelNotFound(klickat) {
 
-function addExistDelNotFound(klickat) {
+        //läs befintliga märken som lagras i input
+        var finnsRedan = $('#markeInput').val();
 
-    //läs befintliga märken som lagras i input
-    var finnsRedan = $('#markeInput').val();
+        console.log("finnsredan: " + finnsRedan);
+        //gör om string till array
+        var finnsArray = $('#markeInput').val().split(',');
 
-    console.log("finnsredan: " + finnsRedan);
-    //gör om string till array
-    var finnsArray = $('#markeInput').val().split(',');
+        //tar bort tom plats
+        if (finnsArray[0] == "") {
+            finnsArray.splice(0, 1);
+        }
 
-    //tar bort tom plats
-    if (finnsArray[0] == "") {
-        finnsArray.splice(0, 1);
-    }
+        console.log("array av finnsredan:" + finnsArray);
+        //kolla om det klickade finns i arrayen, om så ta bort annars lägg till
+        var found = jQuery.inArray(klickat, finnsArray);
+        if (found >= 0) {
+            console.log('hittad');
+            // Element was found, remove it.
+            finnsArray.splice(found, 1);
 
-    console.log("array av finnsredan:" + finnsArray);
-    //kolla om det klickade finns i arrayen, om så ta bort annars lägg till
-    var found = jQuery.inArray(klickat, finnsArray);
-    if (found >= 0) {
-        console.log('hittad');
-        // Element was found, remove it.
-        finnsArray.splice(found, 1);
-
-    } else {
-        console.log('ny');
-        // Element was not found, add it.
-        finnsArray.push(klickat);
-
-
-    }
-    console.log(finnsArray);
-    //gör om array till sträng
-    var skickaStrang = finnsArray.join(',');
-
-    //lagra sträng i input
-    $('#markeInput').val(skickaStrang);
-    console.log(skickaStrang)
-    console.log($('#markeInput').val());
-    //kör ajax-fråga m input-data
+        } else {
+            console.log('ny');
+            // Element was not found, add it.
+            finnsArray.push(klickat);
 
 
+        }
+        console.log(finnsArray);
+        //gör om array till sträng
+        var skickaStrang = finnsArray.join(',');
 
-    var gender = $('#gender').val();
-    var plagg = $('#plagg').val();
-    var marke = $('#markeInput').val();
-    var pris = $('#pris').val();
+        //lagra sträng i input
+        $('#markeInput').val(skickaStrang);
+        console.log(skickaStrang)
+        console.log($('#markeInput').val());
+        //kör ajax-fråga m input-data
 
-    $.getJSON("Sortering.php",
-            {gender: gender, plagg: plagg, marke: marke, pris: pris},
-    function(data) {
-        $('#allaprodukter').children().remove();
-        $.each(data, function(index, value) {
-            if (index < 16) {
 
-                $('#allaprodukter').append('<div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><a href="produktsida2.php?namn=' + value.namn + '&plagg=' + value.plagg + '&pris=' + value.pris + '"><div class="beskrivnig"><img src="' + value.bild + '" width="350" height="450" class="img-responsive" alt="Responsive image"><h3>' + value.märke + '</h3><h3>' + value.namn + '</h3><span class="price">' + value.pris + ' SEK</span></div></a></div>');
-            }
+
+        var gender = $('#gender').val();
+        var plagg = $('#plagg').val();
+        var marke = $('#markeInput').val();
+        var pris = $('#pris').val();
+        var page = $('#page').val();
+
+
+        $.getJSON("Sortering.php",
+                {gender: gender, plagg: plagg, marke: marke, pris: pris, page: page},
+        function(data) {
+            $('#allaprodukter').children().remove();
+            $.each(data, function(index, value) {
+                if (index < 16) {
+
+                    $('#allaprodukter').append('<div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><a href="produktsida2.php?namn=' + value.namn + '&plagg=' + value.plagg + '&pris=' + value.pris + '"><div class="beskrivnig"><img src="' + value.bild + '" width="350" height="450" class="img-responsive" alt="Responsive image"><h3>' + value.märke + '</h3><h3>' + value.namn + '</h3><span class="price">' + value.pris + ' SEK</span></div></a></div>');
+                }
+
+            });
+
 
         });
 
-
-    });
-
-}
+    }
 });

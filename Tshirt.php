@@ -41,7 +41,7 @@
         if(isset($_GET["marke"])){
             echo "<input id='marke' type='hidden' value='" . $_GET["marke"] . "'>";
         }
-        
+        echo "<input id='page' type='hidden' value='1'>";
         
         
         
@@ -56,6 +56,7 @@
         <!--section-->
         <form>
             <input type="hidden" value="" name="markeInput" id="markeInput">
+            <input type="hidden" value="1" name="page" id="page">
         </form>
         <div class="container section-container">
             <div class="row">
@@ -128,8 +129,8 @@
                     <div class="col-lg-12 byttasida">
                         <ul>
                             <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
-                            <li class="ruta2"><a href="#" class="nummer">1</a></li>
-                            <li class="ruta2"><a href="#" class="nummer">2</a></li>
+                            <li class="ruta2"><a href="#" class="nummer1">1</a></li>
+                            <li class="ruta2"><a href="#" class="nummer2">2</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
                         </ul>
                     </div>
