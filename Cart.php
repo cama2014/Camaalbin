@@ -1,11 +1,11 @@
 <?php
-
+session_start();
 if (!isset($_SESSION["cart"])) {
     $_SESSION["cart"] = array();
 }
 
 if (isset($_GET["action"]) && $_GET["action"] == "Add") {
-
+    
     $add_to_cart = true;
     for ($i = 0; $i < count($_SESSION["cart"]); $i++) {
         if ($_SESSION["cart"][$i]["namn"] == $_GET["namn"]) {
@@ -33,10 +33,10 @@ if (isset($_GET["action"]) && $_GET["action"] == "Add") {
 $total = 0;
 if (isset($_SESSION["cart"]) && !empty($_SESSION["cart"])) {
 
-    $jsonprodukter = json_encode($_SESSION["cart"]);
+    $jsonprodukter = $_SESSION["cart"];
     
-    echo $jsonprodukter;
+    echo json_encode($jsonprodukter);
 
 }else{
-    echo json_encode("Kundvagnen är tom");
+    echo "Kundvagnen är tom";
 }
