@@ -11,12 +11,24 @@
 
 if (isset($_POST["action"])) {
     if ($_POST["action"] == "SPARA") {
-        $password = $_POST["losenord"];
-        $namn = $_POST["fornamn"];
-        $efternamn = $_POST["efternamn"];
-        $telenummer = $_POST["telenummer"];
-        $sql = "INSERT INTO inlogg(password, namn, efternamn, telenummer) VALUES $password, $namn, $efternamn, $telenummer";
-        echo $sql;
+        $namn = filter_input(INPUT_POST, 'fornamn', FILTER_SANITIZE_SPECIAL_CHARS);
+        $efternamn = filter_input(INPUT_POST, 'efternamn', FILTER_SANITIZE_SPECIAL_CHARS);
+        $telenummer = filter_input(INPUT_POST, 'telenummer', FILTER_SANITIZE_SPECIAL_CHARS);
+        $adress = filter_input(INPUT_POST, 'adress', FILTER_SANITIZE_SPECIAL_CHARS);
+        $ort = filter_input(INPUT_POST, 'ort', FILTER_SANITIZE_SPECIAL_CHARS);
+        $postnummer = filter_input(INPUT_POST, 'postnummer', FILTER_SANITIZE_SPECIAL_CHARS);
+        $land = filter_input(INPUT_POST, 'land', FILTER_SANITIZE_SPECIAL_CHARS);
+        
+        
+        $sql = "UPDATE inlogg SET namn='" . $namn . "',efternamn='".$efternamn."'";
+        if($telenummer != null){
+            $sql .= ",telenummer='".$telenummer."'";
+        }
+        if($adress != null){
+            $sql .= ",adress='".$adress."',ort='".$ort."',postnummer='".$postnummer."',land='".$land."' ";
+        }
+        $sql .="WHERE email='" . $_SESSION["user"] . "'";
+//        echo $sql;
         $stmt = $dbh->prepare($sql);
         $stmt->execute();
 //        $info = $stmt->fetchAll();

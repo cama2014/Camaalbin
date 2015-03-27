@@ -130,8 +130,6 @@
                             <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
                             <li class="ruta2"><a href="#" class="nummer">1</a></li>
                             <li class="ruta2"><a href="#" class="nummer">2</a></li>
-                            <li class="ruta2"><a href="#" class="nummer">3</a></li>
-                            <li class="ruta2"><a href="#" class="nummer">4</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
                         </ul>
                     </div>

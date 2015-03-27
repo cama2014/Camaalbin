@@ -130,7 +130,7 @@ $(document).ready(function() {
         console.log("startvärde: " + rutIndex);
         rutIndex += 2;
         console.log("ökat: " + rutIndex);
-        if (rutIndex < 6) {
+        if (rutIndex < 4) {
 
             $(".ruta2").removeClass("ruta2-crossed");
             $(".nummer").removeClass("nummer-crossed");

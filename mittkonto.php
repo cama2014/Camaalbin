@@ -42,19 +42,15 @@ include 'UpdatePHP.php';
                             <form method="post">
                                 <table class="table">
                                     <tr>
-                                        <td><p>Förnamn</p></td>
+                                        <td><p>Förnamn:</p><p id="fornamn"></p></td>
                                         <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Förnamn" name="fornamn"></td>
                                     </tr>
                                     <tr>
-                                        <td><p>Efternamn</p></td>
+                                        <td><p>Efternamn:</p><p id="efternamn"></p></td>
                                         <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Efternamn" name="efternamn"></td>
                                     </tr>
                                     <tr>
-                                        <td><p>Lösenord</p></td>
-                                        <td><input type="password" class="form-control" id="exampleInputEmail1" placeholder="Lösenord" name="losenord"></td>
-                                    </tr>
-                                    <tr>
-                                        <td><p>Telefonnummer</p></td>
+                                        <td><p>Telefonnummer:</p><p id="telefonnummer"></p></td>
                                         <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Telefonnummer" name="telenummer"></td>
                                     </tr>
                                     <tr>
@@ -75,36 +71,38 @@ include 'UpdatePHP.php';
                     <div class="col-lg-offset-4 col-lg-4 col-lg-offset-4 popup-mittkonto-adressbok">
                         <div class="popup-ruta">
                             <h3>ÄNDRA ADRESSBOK</h3>
+                            <form method="post">
                             <table class="table">
                                 <tr>
-                                    <td><p>Förnamn</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Förnamn"></td>
+                                    <td><p>Förnamn:</p><p id="fornamn"></p></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Förnamn" name="fornamn"></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Efternamn</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn"></td>
+                                    <td><p>Efternamn:</p><p id="efternamn"></p></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Eftrenamn" name="efternamn"></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Adress</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adress"></td>
+                                    <td><p>Adress:</p><p id="adress"></p></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Adress" name="adress"></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Ort</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ort"></td>
+                                    <td><p>Ort:</p><p id="ort"></p></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ort" name="ort"></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Postnummer</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Postnummer"></td>
+                                    <td><p>Postnummer:</p><p id="postnummer"></p></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Postnummer" name="postnummer"></td>
                                 </tr>
                                 <tr>
-                                    <td><p>Land</p></td>
-                                    <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Land"></td>
+                                    <td><p>Land:</p><p id="land"></p></td>
+                                    <td><input type="text" class="form-control" id="exampleInputEmail1" placeholder="Land" name="land"></td>
                                 </tr>
                                 <tr>
                                     <td><button class="btn btn-primary huvud-button tillbaka-button-adressbok" type="submit">TILLBAKA</button></td>
-                                    <td><button class="btn btn-primary huvud-button andra-button-adressbok" type="submit">SPARA</button></td>
+                                    <td><input type="submit" class="btn btn-primary huvud-button andra-button-kontinfo" name="action" value="SPARA"></td>
                                 </tr>
-                            </table>                                     
+                            </table>
+                                </form>
                         </div>
                     </div>
                 </div>
