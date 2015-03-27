@@ -48,17 +48,17 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="img/Das_Bild_der_Prinzessin.jpg" alt="">
+                                    <img src="img/camabild1.jpg" width="1280" height="720" alt="">
                                     <div class="carousel-caption">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="img/Das_Bild_der_Prinzessin.jpg" alt="">
+                                    <img src="img/camabild2.jpg" width="1280" height="720" alt="">
                                     <div class="carousel-caption">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="img/Das_Bild_der_Prinzessin.jpg" alt="">
+                                    <img src="img/camabild3.jpg" width="1280" height="720" alt="">
                                     <div class="carousel-caption">
                                     </div>
                                 </div>      
@@ -82,10 +82,10 @@
                             <div class="headline"><h3><span class="headline-center">REA</span></div></h3>
                         </div>
                     </div>
-                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
-                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
-                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
-                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/rsz_camajacka.jpg"  class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/rsz_camajeans.jpg" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/rsz_camakeps.jpg" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/rsz_camaskjorta.jpg" class="img-responsive" alt="Responsive image"></div></a>
                 </div>
 
                 <div class="row fyrabox-row">
@@ -94,10 +94,10 @@
                             <div class="headline"><h3><span class="headline-center">NYHETER</span></div></h3>
                         </div>
                     </div>
-                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
-                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
-                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
-                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/tshirtbildtest.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/rsz_camatroja.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/rsz_camamossa.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/rsz_camachinos.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
+                    <a href="#"><div class="col-lg-3 col-md-3 col-sm-3 fyrabox"><img src="img/rsz_camatshirt.jpg" width="350" height="550" class="img-responsive" alt="Responsive image"></div></a>
                 </div>
 
             </div>

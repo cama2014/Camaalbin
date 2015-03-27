@@ -67,7 +67,7 @@
                             <div class="row fyrabox-row">                                
                                 <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
                                     <div class="profil-b">
-                                        <img src="img/profilbildtest.png" class="img-responsive profil-bild" alt="Responsive image">
+                                        <img src="img/rsz_carl.jpg" class="img-responsive profil-bild" alt="Responsive image">
                                         <h3>Carl</h3>
                                         <h3>Ekbjörn</h3>                               
 
@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
                                     <div class="profil-b">
-                                        <img src="img/profilbildtest.png" class="img-responsive profil-bild" alt="Responsive image">
+                                        <img src="img/rsz_albin.jpg" class="img-responsive profil-bild" alt="Responsive image">
                                         <h3>Albin</h3> 
                                         <h3>Johansson</h3>                               
 
@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
                                     <div class="profil-b">
-                                        <img src="img/profilbildtest.png" class="img-responsive profil-bild" alt="Responsive image">
+                                        <img src="img/rsz_mattias.jpg" class="img-responsive profil-bild" alt="Responsive image">
                                         <h3>Mattias</h3>
                                         <h3>Arnestad</h3>                               
 
@@ -91,7 +91,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 fyrabox">                         
                                     <div class="profil-b">
-                                        <img src="img/profilbildtest.png" class="img-responsive profil-bild" alt="Responsive image">
+                                        <img src="img/rsz_anton.jpg" class="img-responsive profil-bild" alt="Responsive image">
                                         <h3>Anton</h3>
                                         <h3>Nylund</h3>                               
 
