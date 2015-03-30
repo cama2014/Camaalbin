@@ -1,5 +1,8 @@
 <?php
 
+$dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8', DB_EMAIL, DB_PASSWORD);
+
+
 if (isset($_POST["action"])) {
     //Registrering
 
@@ -7,20 +10,15 @@ if (isset($_POST["action"])) {
 
         $regemail = $_POST["regemail"];
         $regpassword = $_POST["regpass"];
-//            echo $regpassword;
-//            echo $regusername;
+
         $sql = "INSERT INTO inlogg(email, password) VALUES (:email, :password)";
-//        echo $sql;
+
         $stmt = $dbh->prepare($sql);
         $stmt->bindParam(":password", $regpassword);
         $stmt->bindParam(":email", $regemail);
         $success = $stmt->execute();
-//        echo "succes: ".$success;
-        
 
-        
-        
-        
+              
 
         if ($success == 1) {
             $_SESSION["user"] = $_POST["regemail"];

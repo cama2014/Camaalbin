@@ -90,15 +90,17 @@ $(document).ready(function() {
     //pris lägst till högst
     $(".well ul li.lTillh").click(function() {
 
-
+        
 
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
         $(this).children(".farg-typ").toggleClass("farg-typ-crossed");
         
+        
         $('#pris').val("1");
         console.log($('#pris').val());
         addExistDelNotFound("");
+        
 
     });
 //    //pris lägst till högst
