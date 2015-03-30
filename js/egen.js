@@ -95,18 +95,22 @@ $(document).ready(function() {
         $(this).children(".ruta").toggleClass("ruta-crossed");
         $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
         $(this).children(".farg-typ").toggleClass("farg-typ-crossed");
+        
+        $('#pris').val("1");
+        console.log($('#pris').val());
+        addExistDelNotFound("");
 
     });
-    //pris lägst till högst
-    $(".well ul li.hTilll").click(function() {
-
-
-
-        $(this).children(".ruta").toggleClass("ruta-crossed");
-        $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
-        $(this).children(".farg-typ").toggleClass("farg-typ-crossed");
-
-    });
+//    //pris lägst till högst
+//    $(".well ul li.hTilll").click(function() {
+//
+//
+//
+//        $(this).children(".ruta").toggleClass("ruta-crossed");
+//        $(this).children(".marke-typ").toggleClass("marke-typ-crossed");
+//        $(this).children(".farg-typ").toggleClass("farg-typ-crossed");
+//
+//    });
 
     //bytta sida
 
@@ -124,7 +128,7 @@ $(document).ready(function() {
         console.log($('#page').val());
         addExistDelNotFound("");
     });
-    
+
     $(".nummer2").click(function() {
         $(".ruta2").removeClass("ruta2-crossed");
         $(this).parent(".ruta2").toggleClass("ruta2-crossed");
@@ -149,6 +153,10 @@ $(document).ready(function() {
             $(".nummer").removeClass("nummer-crossed");
             $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
             $(".byttasida li:nth-of-type(" + rutIndex + ") a").addClass("nummer-crossed");
+
+            $('#page').val("2");
+            console.log($('#page').val());
+            addExistDelNotFound("");
         }
 
 
@@ -167,10 +175,11 @@ $(document).ready(function() {
             $(".nummer").removeClass("nummer-crossed");
             $(".byttasida li:nth-of-type(" + rutIndex + ")").addClass("ruta2-crossed");
             $(".byttasida li:nth-of-type(" + rutIndex + ") a").addClass("nummer-crossed");
+            
+            $('#page').val("1");
+        console.log($('#page').val());
+        addExistDelNotFound("");
         }
-
-
-
     });
 
 

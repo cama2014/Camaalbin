@@ -4,6 +4,7 @@ $(document).ready(function() {
     var gender = $('#gender').val();
     var plagg = $('#plagg').val();
     var marke = $('#marke').val();
+    var page = $('#page').val();
 
     var pris = $('#pris').val();
     var namn = $('#namn').val();
@@ -15,7 +16,7 @@ $(document).ready(function() {
 
 
     $.getJSON("Filtrering.php",
-            {gender: gender, plagg: plagg, marke: marke, pris: pris},
+            {gender: gender, plagg: plagg, marke: marke, pris: pris, page: page},
     function(data) {
 
     

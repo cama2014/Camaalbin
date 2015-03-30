@@ -15,6 +15,14 @@ $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8
 
 $gender = $_GET["gender"];
 $plagg = $_GET["plagg"];
+$page = $_GET["page"];
+
+$limit = "10";
+if($page == 1){
+    $offset = "0";
+}else{
+    $offset = "10";
+}
 
 
 
@@ -26,6 +34,10 @@ $sql = "SELECT * FROM produkter ";
 if ($_GET["plagg"]) {
     $sql .= "WHERE plagg='$plagg' AND gender='$gender'";
 }
+$sql .= " ORDER BY märke";
+$sql .= " LIMIT ".$limit." OFFSET ".$offset."";
+ 
+// echo $sql;
 
 
 //    if ($sortby != "") {

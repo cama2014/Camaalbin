@@ -41,6 +41,9 @@
         if(isset($_GET["marke"])){
             echo "<input id='marke' type='hidden' value='" . $_GET["marke"] . "'>";
         }
+//        else{
+//            echo "<input id='marke' type='hidden' value=''>";
+//        }
         echo "<input id='page' type='hidden' value='1'>";
         
         
@@ -96,7 +99,7 @@
                                     <div class="well">
                                         <ul>
                                             <li class="lTillh"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Lägst till högst</p></span></li>
-                                            <li class="hTilll"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Högst till lägst</p></span></li>                                                                                                                               
+<!--                                            <li class="hTilll"><div class="ruta"></div><span class="marke-typ" style="background-color: whitesmoke;"><p>Högst till lägst</p></span></li>                                                                                                                               -->
                                         </ul>
                                     </div>
                                 </div>                           
