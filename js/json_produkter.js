@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('#h3_kon').append(gender);
     $('#h3_plagg').append(plagg);
 
-
+    
 
 
     $.getJSON("Filtrering.php",
@@ -34,7 +34,7 @@ $(document).ready(function() {
     var namn2 = $('#namn').val();
     $('#h3_namn').append(namn2);
     
-    
+ //   $('#produktsida2bild').append('<img id="produktsida2bild "src="'+value.bild+'" width="560" height="700" class="img-responsive" alt="Responsive image">');
     
     
     if(plagg =="JEANS" || plagg=="chinos" || plagg=="mössa" || plagg=="keps"){

@@ -3,20 +3,24 @@ $(document).ready(function() {
     var pris = $('#pris').val();
     var namn = $('#namn').val();
 
-    
-        //klicka på köp
+
+    //klicka på köp
     $(".button-köp").click(function() {
-        
+
         getKundvagn(pris, 0, namn, "Add");
-        
+
 
     });
-        //ta bort vara ur kundvagn
-    $(".tabortFkv-button").click(function(){
+    //ta bort vara ur kundvagn
+    $(".tabortFkv-button").click(function() {
+        console.log("awd");
         var tabortNamn = $(this).siblings("input").val();
-        
-    });
+        console.log(tabortNamn);
+//        $('#kundvagns_append').append('<input name="removeprod" type="hidden" value="'+tabortnamn+'">');
+        getKundvagn(0,0,tabortNamn,"Remove");
     
+    });
+
 
     total = getKundvagn(0, 0, "", "list");
 
@@ -36,20 +40,19 @@ function getKundvagn(pris, antal, namn, action) {
         $.each(data, function(index, value) {
 
             summa += parseInt(value.pris) * parseInt(value.antal);
-                                                                                                                                                                                                
+
             $('#kundvagns_append').append('<div class="row produktivagn-row">\n\
-            <div class="col-lg-3 imgIvagn">\n\
-            </div><div class="col-lg-6 produktInfoIvagn"><p>' + value.namn + '</p><p>' + value.antal + '</p><p>' + value.pris + ' SEK</p></div>\n\
-            <div class="col-lg-3 tabortFranvagn"><input type="hidden" value="'+value.namn+'"><input type="submit" class="btn btn-primary huvud-button tabortFkv-button" name="action" value="X"></div></div>');
-//
+            <div class="col-lg-6 produktInfoIvagn"><p>' + value.namn + ' ' + value.antal + ' st ' + value.pris + ' SEK</p></div>\n\
+            <div class="col-lg-6 tabortFranvagn"><input name="namn" type="hidden" value="' + value.namn + '"><input type="submit" class="btn btn-primary huvud-button tabortFkv-button" name="action" value="X"></div></div>');
+
 
 
         });
 
         $('#kundvagns_append').append('<p>' + summa + '</p>');
-
+        return summa;
     });
 
-    return summa;
+
 
 }

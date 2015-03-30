@@ -1,5 +1,6 @@
 <?php
 session_start();
+//var_dump($_GET);
 if (!isset($_SESSION["cart"])) {
     $_SESSION["cart"] = array();
 }
@@ -27,6 +28,11 @@ if (isset($_GET["action"]) && $_GET["action"] == "Add") {
 //            array_push($_SESSION["kundvagn"], $hamtadProd);
 //        }
 //    }
+}
+
+if (isset($_GET["action"]) && $_GET["action"] == "Remove") {
+    $prodnamn = $_GET["namn"];
+    var_dump($prodnamn);
 }
 
 
