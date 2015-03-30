@@ -11,15 +11,7 @@ $(document).ready(function() {
 
 
     });
-    //ta bort vara ur kundvagn
-    $(".tabortFkv-button").click(function() {
-        console.log("awd");
-        var tabortNamn = $(this).siblings("input").val();
-        console.log(tabortNamn);
-//        $('#kundvagns_append').append('<input name="removeprod" type="hidden" value="'+tabortnamn+'">');
-        getKundvagn(0,0,tabortNamn,"Remove");
-    
-    });
+
 
 
     total = getKundvagn(0, 0, "", "list");
@@ -53,6 +45,21 @@ function getKundvagn(pris, antal, namn, action) {
         return summa;
     });
 
+checkRemove();
 
 
+}
+
+
+function checkRemove(){
+    //ta bort vara ur kundvagn
+    console.log("awd");
+    $(".tabortFkv-button").click(function() {
+        console.log("awd");
+        var tabortNamn = $(this).siblings("input").val();
+        console.log(tabortNamn);
+
+        getKundvagn(0, 0, tabortNamn, "Remove");
+
+    });
 }

@@ -45,7 +45,10 @@
             echo "<input id='plagg' type='hidden' value='" . $_GET["plagg"] . "'>";
         }
         
-        
+        if(isset($_GET["bild"])){
+            echo "<input id='bild' type='hidden' value='" . $_GET["bild"] . "'>";
+            
+        }
         
         ?>
 
@@ -61,7 +64,7 @@
             </div>
 
             <div class="row section-row">
-                <div id="produktsida2bild "class="col-lg-6 section">
+                <div id="produktsida2bild" class="col-lg-6 section">
                     
                 </div>
 
